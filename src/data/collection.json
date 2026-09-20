@@ -1,0 +1,1576 @@
+[
+  {
+    "id": "3136",
+    "accession": "3136",
+    "collection": "Cascade",
+    "displayOrder": 1,
+    "alternate": false,
+    "hotspots": [],
+    "views": [],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Tea gown, red satin plissé",
+    "designer": "Balenciaga",
+    "date": "1962",
+    "material": "Satin",
+    "credit": "Gift of the Smithsonian Institution",
+    "footer": "CF+TC No. 3136",
+    "description": "Full-length tea gown in dark red satin, finely pleated from the neckline through the hem to create a continuous field of vertical folds. Long, billowing sleeves echo the volume of the body and narrow toward the wrists, while a ribbon at the crew neckline ties at the back. The simple construction allows the plissé surface to define the garment, producing an elongated silhouette that shifts fluidly with movement.",
+    "image": null,
+    "thumbnail": null,
+    "imageAspect": "2 / 3",
+    "model": null,
+    "alt": "Collection photograph: Tea gown, red satin plissé, displayed on a mannequin.",
+    "labelSource": "Tea gown, red satin plissé\n\n1962\n\nFull-length tea gown in dark red satin, finely pleated from the neckline through the hem to create a continuous field of vertical folds. Long, billowing sleeves echo the volume of the body and narrow toward the wrists, while a ribbon at the crew neckline ties at the back. The simple construction allows the plissé surface to define the garment, producing an elongated silhouette that shifts fluidly with movement.\n\nCF+TC No. 3136. Gift of the Smithsonian Institution",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 2,
+      "materialCell": "H2",
+      "labelCell": "K2"
+    },
+    "assetNote": "Photography and 3D view will follow after necessary repair."
+  },
+  {
+    "id": "2012.08.026abcde",
+    "accession": "2012.08.026abcde",
+    "collection": "Cascade",
+    "displayOrder": 2,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Ensemble, pink pleated and beaded silk",
+    "designer": "Mary McFadden",
+    "date": "1980–1989",
+    "material": "Silk",
+    "credit": "Gift of Ollie McNamara",
+    "footer": "CF+TC No. 2012.08.026a–e",
+    "description": "Layered ensemble in vivid pink silk comprising a tunic, skirt, underskirt, overcoat, and matching purse. Crushed and pleated surfaces give the fabric a richly textured appearance, accented by beaded details that catch the light. The loose overcoat falls in long, open panels over the shorter layers beneath, creating a shifting interplay of opacity, texture, and movement characteristic of Mary McFadden’s interest in combining draped forms with highly manipulated textiles.",
+    "image": "/images/2012.08.026abcde.webp",
+    "thumbnail": "/images/2012.08.026abcde-card.webp",
+    "imageAspect": "3586 / 5379",
+    "model": "/models/2012.08.026abcde.glb",
+    "alt": "Collection photograph: Ensemble, pink pleated and beaded silk, displayed on a mannequin.",
+    "labelSource": "Ensemble, pink pleated and beaded silk\n\n1980–1989\n\nLayered ensemble in vivid pink silk comprising a tunic, skirt, underskirt, overcoat, and matching purse. Crushed and pleated surfaces give the fabric a richly textured appearance, accented by beaded details that catch the light. The loose overcoat falls in long, open panels over the shorter layers beneath, creating a shifting interplay of opacity, texture, and movement characteristic of Mary McFadden’s interest in combining draped forms with highly manipulated textiles.\n\nCF+TC No. 2012.08.026a–e. Gift of Ollie McNamara",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 8,
+      "materialCell": "H8",
+      "labelCell": "K8",
+      "photograph": "Photos/5:18/2012.08.026abcde/DSC_8120.jpg",
+      "model": "3D Models/Cascade/GLB/2012.08.026abcde.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Ensemble, pink pleated and beaded silk. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "1999.27.006a-d",
+    "accession": "1999.27.006a-d",
+    "collection": "Cascade",
+    "displayOrder": 3,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Dinner dress, pink crinkle silk",
+    "designer": "Maker not recorded",
+    "date": "1983",
+    "material": "Crinkle silk",
+    "credit": "Gift of Helen Cyran",
+    "footer": "CF+TC No. 1999.27.006a–d",
+    "description": "Dusty pink crinkle silk dinner dress with a straight, knee-length silhouette, low rounded neckline, and long, full sleeves gathered into narrow cuffs. A heavy matching silk cord loops loosely across the front and ties at the back, its decorative knots and tassels providing a sculptural counterpoint to the softly textured fabric. Beige-and-white strappy shoes complete the ensemble.",
+    "image": "/images/1999.27.006a-d.webp",
+    "thumbnail": "/images/1999.27.006a-d-card.webp",
+    "imageAspect": "3553 / 5329",
+    "model": "/models/1999.27.006a-d.glb",
+    "alt": "Collection photograph: Dinner dress, pink crinkle silk, displayed on a mannequin.",
+    "labelSource": "Dinner dress, pink crinkle silk\n\n1983\n\nDusty pink crinkle silk dinner dress with a straight, knee-length silhouette, low rounded neckline, and long, full sleeves gathered into narrow cuffs. A heavy matching silk cord loops loosely across the front and ties at the back, its decorative knots and tassels providing a sculptural counterpoint to the softly textured fabric. Beige-and-white strappy shoes complete the ensemble.\n\nCF+TC No. 1999.27.006a–d. Gift of Helen Cyran",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 6,
+      "materialCell": "H6",
+      "labelCell": "K6",
+      "photograph": "Photos/5:18/1999.27.006a-d/DSC_7951.jpg",
+      "model": "3D Models/Cascade/GLB/1999.27.006a-d.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Dinner dress, pink crinkle silk. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2012.08.019ab",
+    "accession": "2012.08.019ab",
+    "collection": "Cascade",
+    "displayOrder": 4,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Ensemble, salmon and pink printed silk",
+    "designer": "Mary McFadden",
+    "date": "Date unknown",
+    "material": "Silk",
+    "credit": "Gift of Ollie McNamara",
+    "footer": "CF+TC No. 2012.08.019ab",
+    "description": "Two-piece silk ensemble comprising a loose peasant-style blouse and matching skirt, printed in shades of salmon and vivid pink. The blouse falls softly from a wide neckline into full sleeves gathered at the wrists, while the skirt continues the patterned fabric in a straight, relaxed silhouette. Rather than relying on McFadden’s signature pleating, the ensemble uses color, print, and loosely draped construction to create visual movement.",
+    "image": "/images/2012.08.019ab.webp",
+    "thumbnail": "/images/2012.08.019ab-card.webp",
+    "imageAspect": "3601 / 5402",
+    "model": "/models/2012.08.019ab.glb",
+    "alt": "Collection photograph: Ensemble, salmon and pink printed silk, displayed on a mannequin.",
+    "labelSource": "Ensemble, salmon and pink printed silk\n\nDate unknown\n\nMary McFadden\n\nTwo-piece silk ensemble comprising a loose peasant-style blouse and matching skirt, printed in shades of salmon and vivid pink. The blouse falls softly from a wide neckline into full sleeves gathered at the wrists, while the skirt continues the patterned fabric in a straight, relaxed silhouette. Rather than relying on McFadden’s signature pleating, the ensemble uses color, print, and loosely draped construction to create visual movement.\n\nCF+TC No. 2012.08.019ab. Gift of Ollie McNamara",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 7,
+      "materialCell": "H7",
+      "labelCell": "K7",
+      "photograph": "Photos/5:18/2012.08.019ab/DSC_7939.jpg",
+      "model": "3D Models/Cascade/GLB/2012.08.019ab.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Ensemble, salmon and pink printed silk. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "1999.27.004ab",
+    "accession": "1999.27.004ab",
+    "collection": "Cascade",
+    "displayOrder": 5,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Dress, pink silk velvet with cord belt",
+    "designer": "Maker not recorded",
+    "date": "c. 1968",
+    "material": "Silk velvet and cord with satin buttons",
+    "credit": "Gift of Helen Cyran",
+    "footer": "CF+TC No. 1999.27.004ab",
+    "description": "Long pink silk velvet dress with a narrow skirt, long cuffed sleeves, and a pointed collar. Matching satin-covered buttons extend from the neckline to the gathered waist. A heavy silk cord encircles the waist and terminates in large decorative tassels, introducing weight and movement against the softly draped velvet and emphasizing the dress’s elongated silhouette.",
+    "image": "/images/1999.27.004ab.webp",
+    "thumbnail": "/images/1999.27.004ab-card.webp",
+    "imageAspect": "3703 / 5554",
+    "model": "/models/1999.27.004ab.glb",
+    "alt": "Collection photograph: Dress, pink silk velvet with cord belt, displayed on a mannequin.",
+    "labelSource": "Dress, pink silk velvet with cord belt\n\nc. 1968\n\nLong pink silk velvet dress with a narrow skirt, long cuffed sleeves, and a pointed collar. Matching satin-covered buttons extend from the neckline to the gathered waist. A heavy silk cord encircles the waist and terminates in large decorative tassels, introducing weight and movement against the softly draped velvet and emphasizing the dress’s elongated silhouette.\n\nCF+TC No. 1999.27.004ab. Gift of Helen Cyran",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 5,
+      "materialCell": "H5",
+      "labelCell": "K5",
+      "photograph": "Photos/5:18/1999.27.004ab/DSC_7929.jpg",
+      "model": "3D Models/Cascade/GLB/1999.27.004ab.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Dress, pink silk velvet with cord belt. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "915",
+    "accession": "915",
+    "collection": "Cascade",
+    "displayOrder": 6,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Ball gown, stole, belt, and slippers",
+    "designer": "Maker not recorded",
+    "date": "1937",
+    "material": "Pebble satin with fox fur on stole",
+    "credit": "Gift of Eleanor Roosevelt",
+    "footer": "CF+TC No. 915, 915a–b",
+    "description": "Ice-blue pebble satin evening ensemble comprising a sleeveless V-neck gown, matching stole and belt, and satin slippers. The gown falls from a gathered bodice into a long, slightly trained skirt with a center-front opening. A jeweled clasp fastens the belt, while the matching stole crosses the throat and falls freely down the back, ending in fox fur dyed to match. The stole extends the fluid vertical line of the gown, using draped fabric to create movement and a sense of ceremonial elegance.",
+    "image": "/images/915.webp",
+    "thumbnail": "/images/915-card.webp",
+    "imageAspect": "4000 / 6000",
+    "model": "/models/915.glb",
+    "alt": "Collection photograph: Ball gown, stole, belt, and slippers, displayed on a mannequin.",
+    "labelSource": "Ball gown, stole, belt, and slippers\n\n1937\n\nIce-blue pebble satin evening ensemble comprising a sleeveless V-neck gown, matching stole and belt, and satin slippers. The gown falls from a gathered bodice into a long, slightly trained skirt with a center-front opening. A jeweled clasp fastens the belt, while the matching stole crosses the throat and falls freely down the back, ending in fox fur dyed to match. The stole extends the fluid vertical line of the gown, using draped fabric to create movement and a sense of ceremonial elegance.\n\nCF+TC No. 915, 915a–b. Gift of Eleanor Roosevelt",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 3,
+      "materialCell": "H3",
+      "labelCell": "K3",
+      "photograph": "Photos/5:18/915/DSC_8138.jpg",
+      "model": "3D Models/Cascade/GLB/915.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Ball gown, stole, belt, and slippers. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2026.06.177ab",
+    "accession": "2026.06.177ab",
+    "collection": "Cascade",
+    "displayOrder": 7,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Off-white silk chiffon dress and wooden-bead cardigan",
+    "designer": "Ralph Rucci",
+    "date": "Spring 2007, Haute Couture",
+    "material": "Silk Chiffon and wood beads",
+    "credit": "Anonymous gift",
+    "footer": "Ralph Rucci Collection, CF+TC No. 2026.06.177ab",
+    "description": "Off-white silk chiffon evening dress paired with an openwork cardigan constructed entirely from wooden beads. Radiating beadwork ornaments the high-necked bodice, while a narrow braided belt defines the waist. Below, gathered chiffon panels open into fluted sections at the front and back, continuing into a soft train and fringed hem. The cardigan transforms wooden beads into a flexible diamond-patterned mesh, its natural variations in color and weight providing a tactile counterpoint to the translucent chiffon beneath.",
+    "image": "/images/2026.06.177ab.webp",
+    "thumbnail": "/images/2026.06.177ab-card.webp",
+    "imageAspect": "4000 / 6000",
+    "model": "/models/2026.06.177ab.glb",
+    "alt": "Collection photograph: Off-white silk chiffon dress and wooden-bead cardigan, displayed on a mannequin.",
+    "labelSource": "Off-white silk chiffon dress and wooden-bead cardigan\n\nSpring 2007, Haute Couture\n\nRalph Rucci\n\nOff-white silk chiffon evening dress paired with an openwork cardigan constructed entirely from wooden beads. Radiating beadwork ornaments the high-necked bodice, while a narrow braided belt defines the waist. Below, gathered chiffon panels open into fluted sections at the front and back, continuing into a soft train and fringed hem. The cardigan transforms wooden beads into a flexible diamond-patterned mesh, its natural variations in color and weight providing a tactile counterpoint to the translucent chiffon beneath.\n\nRalph Rucci Collection, CF+TC No. 2026.06.177ab. Anonymous gift",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 9,
+      "materialCell": "H9",
+      "labelCell": "K9",
+      "photograph": "Photos/RR/2026.06.177ab/DSC_8094.jpg",
+      "model": "3D Models/Cascade/GLB/2026.06.177ab.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Off-white silk chiffon dress and wooden-bead cardigan. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2026.06.302",
+    "accession": "2026.06.302",
+    "collection": "Cascade",
+    "displayOrder": 8,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "White “Lily of the Valley” gown",
+    "designer": "Ralph Rucci",
+    "date": "Spring 2012, Ready-to-Wear",
+    "material": "Silk chiffon with bead embellishments",
+    "credit": "Anonymous gift",
+    "footer": "Ralph Rucci Collection, CF+TC No. 2026.06.302",
+    "description": "Ivory silk chiffon gown embellished with clusters of sequins and beads arranged in delicate floral motifs, increasing in density around the neckline, shoulders, and hem. A braided and knotted cord defines the waist, from which soft gathers open into two tiers of chiffon. The upper layer ends in irregular beaded fringe, while the sheer underlayer continues to the floor, giving the narrow silhouette a light, floating quality.",
+    "image": "/images/2026.06.302.webp",
+    "thumbnail": "/images/2026.06.302-card.webp",
+    "imageAspect": "3548 / 5322",
+    "model": "/models/2026.06.302.glb",
+    "alt": "Collection photograph: White “Lily of the Valley” gown, displayed on a mannequin.",
+    "labelSource": "White “Lily of the Valley” gown\n\nSpring 2012, Ready-to-Wear\n\nRalph Rucci\n\nIvory silk chiffon gown embellished with clusters of sequins and beads arranged in delicate floral motifs, increasing in density around the neckline, shoulders, and hem. A braided and knotted cord defines the waist, from which soft gathers open into two tiers of chiffon. The upper layer ends in irregular beaded fringe, while the sheer underlayer continues to the floor, giving the narrow silhouette a light, floating quality.\n\nRalph Rucci Collection, CF+TC No. 2026.06.302. Anonymous gift",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 10,
+      "materialCell": "H10",
+      "labelCell": "K10",
+      "photograph": "Photos/RR/2026.06.302 /DSC_8057.jpg",
+      "model": "3D Models/Cascade/GLB/2026.06.302.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of White “Lily of the Valley” gown. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2002.05.084 + 2002.05.083",
+    "accession": "2002.05.084 + 2002.05.083",
+    "collection": "Contrapposto",
+    "displayOrder": 1,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Pleated top and skirt, black and white",
+    "designer": "Mary McFadden",
+    "date": "1990–1999",
+    "material": "Satin",
+    "credit": "Gift of Dorothy Schefer",
+    "footer": "CF+TC Nos. 2002.05.083–084",
+    "description": "Black-and-white ensemble pairing a long-sleeved top with a white pleated skirt. On the top, a central panel of narrow white pleats is framed by black sleeves and side panels, with smooth black satin defining the waist and upper hip. The skirt continues the vertical pleating to the ankle, creating a continuous column of fine folds. Together, the contrasting textures and elongated proportions demonstrate McFadden’s characteristic use of pleating to give structure and movement to otherwise simple forms.",
+    "image": "/images/2002.05.084_2002.05.083.webp",
+    "thumbnail": "/images/2002.05.084_2002.05.083-card.webp",
+    "imageAspect": "3713 / 5569",
+    "model": null,
+    "alt": "Collection photograph: Pleated top and skirt, black and white, displayed on a mannequin.",
+    "labelSource": "Pleated top and skirt, black and white\n\n1990–1999\n\nMary McFadden\n\nBlack-and-white ensemble pairing a long-sleeved top with a white pleated skirt. On the top, a central panel of narrow white pleats is framed by black sleeves and side panels, with smooth black satin defining the waist and upper hip. The skirt continues the vertical pleating to the ankle, creating a continuous column of fine folds. Together, the contrasting textures and elongated proportions demonstrate McFadden’s characteristic use of pleating to give structure and movement to otherwise simple forms.\n\nCF+TC Nos. 2002.05.083–084. Gift of Dorothy Schefer",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 11,
+      "materialCell": "H11",
+      "labelCell": "K11",
+      "photograph": "Photos/5:18/2002.05.083 + 2002.05.084/use!.jpg"
+    },
+    "assetNote": "Temporary photograph. Updated photography and a 3D view are forthcoming."
+  },
+  {
+    "id": "2026.06.249ab",
+    "accession": "2026.06.249ab",
+    "collection": "Contrapposto",
+    "displayOrder": 2,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Black satin dress and white beaded sweater",
+    "designer": "Ralph Rucci",
+    "date": "Spring 2011, Ready-to-Wear",
+    "material": "Satin dress and bugle beads",
+    "credit": "Anonymous gift",
+    "footer": "Ralph Rucci Collection, CF+TC No. 2026.06.249ab",
+    "description": "Black hammered satin slip dress paired with a cropped white sweater densely covered in bugle beads. Cut on the bias, the dress follows the body before flaring gently toward the floor, with a deep V-neckline and narrow straps framing an open back. Above it, the wide-sleeved sweater introduces a contrasting horizontal layer, its luminous beaded surface and extended back hovering over the fluid satin. The pairing balances weight and transparency, structure and drape.",
+    "image": "/images/2026.06.249ab.webp",
+    "thumbnail": "/images/2026.06.249ab-card.webp",
+    "imageAspect": "3399 / 5098",
+    "model": "/models/2026.06.249ab.glb",
+    "alt": "Collection photograph: Black satin dress and white beaded sweater, displayed on a mannequin.",
+    "labelSource": "Black satin dress and white beaded sweater\n\nSpring 2011, Ready-to-Wear\n\nRalph Rucci\n\nBlack hammered satin slip dress paired with a cropped white sweater densely covered in bugle beads. Cut on the bias, the dress follows the body before flaring gently toward the floor, with a deep V-neckline and narrow straps framing an open back. Above it, the wide-sleeved sweater introduces a contrasting horizontal layer, its luminous beaded surface and extended back hovering over the fluid satin. The pairing balances weight and transparency, structure and drape.\n\nRalph Rucci Collection, CF+TC No. 2026.06.249ab. Anonymous gift",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 13,
+      "materialCell": "H13",
+      "labelCell": "K13",
+      "photograph": "Photos/RR/2026.06.249ab/DSC_8086.jpg",
+      "model": "3D Models/Contrapposto/GLB/2026.06.249ab.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Black satin dress and white beaded sweater. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2002.05.090",
+    "accession": "2002.05.090",
+    "collection": "Contrapposto",
+    "displayOrder": 3,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "One-shoulder pleated dress, black",
+    "designer": "Mary McFadden",
+    "date": "1998",
+    "material": "Synthetic polyester charmeuse fabric?",
+    "credit": "Gift of Dorothy Schefer",
+    "footer": "CF+TC No. 2002.05.090",
+    "description": "Black evening dress distinguished by an asymmetrical neckline and single shoulder strap. McFadden’s fine vertical pleats follow the long, narrow silhouette, allowing the fabric to expand and contract subtly with the wearer’s movement. The restrained monochrome palette draws attention to the sculptural qualities of the pleated surface, while the asymmetric draping at the neckline interrupts the otherwise continuous vertical line.",
+    "image": "/images/2002.05.090.webp",
+    "thumbnail": "/images/2002.05.090-card.webp",
+    "imageAspect": "3644 / 5466",
+    "model": "/models/2002.05.090.glb",
+    "alt": "Collection photograph: One-shoulder pleated dress, black, displayed on a mannequin.",
+    "labelSource": "One-shoulder pleated dress, black\n\n1998\n\nMary McFadden\n\nBlack evening dress distinguished by an asymmetrical neckline and single shoulder strap. McFadden’s fine vertical pleats follow the long, narrow silhouette, allowing the fabric to expand and contract subtly with the wearer’s movement. The restrained monochrome palette draws attention to the sculptural qualities of the pleated surface, while the asymmetric draping at the neckline interrupts the otherwise continuous vertical line.\n\nCF+TC No. 2002.05.090. Gift of Dorothy Schefer",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 12,
+      "materialCell": "H12",
+      "labelCell": "K12",
+      "photograph": "Photos/5:18/2002.05.090/DSC_7977.jpg",
+      "model": "3D Models/Contrapposto/GLB/2002.05.090.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of One-shoulder pleated dress, black. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2021.12.001",
+    "accession": "2021.12.001",
+    "collection": "Fluting",
+    "displayOrder": 1,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Delphos gown, blue-green pleated silk",
+    "designer": "Mariano Fortuny",
+    "date": "c. 1920",
+    "material": "Silk",
+    "credit": "Gift of Olivia White",
+    "footer": "CF+TC No. 2021.12.001",
+    "description": "Blue-green silk Delphos gown in \"Peplos\" style composed of finely pleated silk that falls in narrow, continuous folds from the shoulders to the floor. Inspired by the draped garments of ancient Greece, Fortuny developed his distinctive pleating process to create a lightweight, elastic textile that followed the body without conventional tailoring. Small glass beads weight the edges and seams, helping the pleats fall vertically while adding subtle movement and shimmer.",
+    "image": "/images/2021.12.001.webp",
+    "thumbnail": "/images/2021.12.001-card.webp",
+    "imageAspect": "3322 / 4983",
+    "model": "/models/2021.12.001.glb",
+    "alt": "Collection photograph: Delphos gown, blue-green pleated silk, displayed on a mannequin.",
+    "labelSource": "Delphos gown, blue-green pleated silk\n\nc. 1920\n\nMariano Fortuny\n\nBlue-green silk Delphos gown in \"Peplos\" style composed of finely pleated silk that falls in narrow, continuous folds from the shoulders to the floor. Inspired by the draped garments of ancient Greece, Fortuny developed his distinctive pleating process to create a lightweight, elastic textile that followed the body without conventional tailoring. Small glass beads weight the edges and seams, helping the pleats fall vertically while adding subtle movement and shimmer.\n\nCF+TC No. 2021.12.001. Gift of Olivia White",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 17,
+      "materialCell": "H17",
+      "labelCell": "K17",
+      "photograph": "Photos/5:18/2021.12.001/DSC_8073.jpg",
+      "model": "3D Models/Fluting/GLB/2021.12.001.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Delphos gown, blue-green pleated silk. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2012.08.027ab",
+    "accession": "2012.08.027ab",
+    "collection": "Fluting",
+    "displayOrder": 2,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Evening gown and overcoat, aqua silk",
+    "designer": "Maker not recorded",
+    "date": "Date unknown",
+    "material": "Silk",
+    "credit": "Gift of Ollie McNamara",
+    "footer": "CF+TC No. 2012.08.027ab",
+    "description": "Aqua silk evening ensemble comprising a long dress and coordinating overcoat. Crushed and finely pleated fabric creates an irregular, shimmering surface, further enriched with beaded embellishment. The open-front coat hangs loosely over the slender gown, adding a second layer without obscuring the columnar form beneath. Its combination of saturated color, metallic texture, and layered construction gives the ensemble a fluid yet richly ornamented presence.",
+    "image": "/images/2012.08.027ab.webp",
+    "thumbnail": "/images/2012.08.027ab-card.webp",
+    "imageAspect": "3649 / 5473",
+    "model": "/models/2012.08.027ab.glb",
+    "alt": "Collection photograph: Evening gown and overcoat, aqua silk, displayed on a mannequin.",
+    "labelSource": "Evening gown and overcoat, aqua silk\n\nDate unknown\n\nAqua silk evening ensemble comprising a long dress and coordinating overcoat. Crushed and finely pleated fabric creates an irregular, shimmering surface, further enriched with beaded embellishment. The open-front coat hangs loosely over the slender gown, adding a second layer without obscuring the columnar form beneath. Its combination of saturated color, metallic texture, and layered construction gives the ensemble a fluid yet richly ornamented presence.\n\nCF+TC No. 2012.08.027ab. Gift of Ollie McNamara",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 16,
+      "materialCell": "H16",
+      "labelCell": "K16",
+      "photograph": "Photos/5:18/2012.08.027ab/DSC_7957.jpg",
+      "model": "3D Models/Fluting/GLB/2012.08.027ab.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Evening gown and overcoat, aqua silk. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "loan-issey-miyake",
+    "accession": null,
+    "collection": "Fluting",
+    "displayOrder": 3,
+    "alternate": false,
+    "hotspots": [],
+    "views": [],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Issey Miyake · borrowed garment",
+    "designer": "Issey Miyake",
+    "date": "Details forthcoming",
+    "material": "Information forthcoming",
+    "credit": "",
+    "footer": "Loan · accession not supplied",
+    "description": "This borrowed garment is planned for the Fluting display. Photography, a 3D model, and object information are being prepared.",
+    "image": null,
+    "thumbnail": null,
+    "imageAspect": "2 / 3",
+    "alt": "",
+    "model": null,
+    "assetNote": "Photography and 3D view forthcoming.",
+    "placeholder": true
+  },
+  {
+    "id": "2026.06.301",
+    "accession": "2026.06.301",
+    "collection": "Fluting",
+    "displayOrder": 4,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Ivory dress with beaded fringe",
+    "designer": "Ralph Rucci",
+    "date": "Spring 2012, Ready-to-Wear",
+    "material": "Silk with bead fringe",
+    "credit": "Anonymous gift",
+    "footer": "Ralph Rucci Collection, CF+TC No. 2026.06.301",
+    "description": "Sleeveless ivory silk dress with a high neckline and a straight, above-the-knee silhouette. Vertical strands of bugle and spherical beads cover the surface like falling rain, becoming progressively denser toward the hem and more widely spaced around the waist. As the body moves, the suspended fringe shifts independently from the silk beneath, animating the restrained silhouette through changing light, texture, and movement.",
+    "image": "/images/2026.06.301.webp",
+    "thumbnail": "/images/2026.06.301-card.webp",
+    "imageAspect": "3535 / 5303",
+    "model": "/models/2026.06.301.glb",
+    "alt": "Collection photograph: Ivory dress with beaded fringe, displayed on a mannequin.",
+    "labelSource": "Ivory dress with beaded fringe\n\nSpring 2012, Ready-to-Wear\n\nRalph Rucci\n\nSleeveless ivory silk dress with a high neckline and a straight, above-the-knee silhouette. Vertical strands of bugle and spherical beads cover the surface like falling rain, becoming progressively denser toward the hem and more widely spaced around the waist. As the body moves, the suspended fringe shifts independently from the silk beneath, animating the restrained silhouette through changing light, texture, and movement.\n\nRalph Rucci Collection, CF+TC No. 2026.06.301. Anonymous gift",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 18,
+      "materialCell": "H18",
+      "labelCell": "K18",
+      "photograph": "Photos/RR/2026.06.301/DSC_8065.jpg",
+      "model": "3D Models/Fluting/GLB/2026.06.301.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Ivory dress with beaded fringe. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "loan-madame-gres",
+    "accession": null,
+    "collection": "Fluting",
+    "displayOrder": 5,
+    "alternate": false,
+    "hotspots": [],
+    "views": [],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Madame Grès · borrowed garment",
+    "designer": "Madame Grès",
+    "date": "Details forthcoming",
+    "material": "Information forthcoming",
+    "credit": "",
+    "footer": "Loan · accession not supplied",
+    "description": "This borrowed garment is planned for the Fluting display. Photography, a 3D model, and object information are being prepared.",
+    "image": null,
+    "thumbnail": null,
+    "imageAspect": "2 / 3",
+    "alt": "",
+    "model": null,
+    "assetNote": "Photography and 3D view forthcoming.",
+    "placeholder": true
+  },
+  {
+    "id": "2002.05.026",
+    "accession": "2002.05.026",
+    "collection": "Fluting",
+    "displayOrder": 6,
+    "alternate": true,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Evening gown, aqua pleated",
+    "designer": "Mary McFadden",
+    "date": "1990–1999",
+    "material": "Synthetic polyester charmeuse fabric?",
+    "credit": "Gift of Dorothy Schefer",
+    "footer": "CF+TC No. 2002.05.026",
+    "description": "Aqua evening gown constructed from Mary McFadden’s signature finely pleated fabric. Draped diagonally across the bodice, the pleats gather at the waist before descending in long vertical folds through the skirt. The combination of permanent pleating and asymmetrical draping recalls the visual language of ancient Mediterranean dress while translating its fluidity into a modern textile technique.",
+    "image": "/images/2002.05.026.webp",
+    "thumbnail": "/images/2002.05.026-card.webp",
+    "imageAspect": "3767 / 5650",
+    "model": "/models/2002.05.026.glb",
+    "alt": "Collection photograph: Evening gown, aqua pleated, displayed on a mannequin.",
+    "labelSource": "1990–1999\n\nMary McFadden\n\nAqua evening gown constructed from Mary McFadden’s signature finely pleated fabric. Draped diagonally across the bodice, the pleats gather at the waist before descending in long vertical folds through the skirt. The combination of permanent pleating and asymmetrical draping recalls the visual language of ancient Mediterranean dress while translating its fluidity into a modern textile technique.\n\nCF+TC No. 2002.05.026. Gift of Dorothy Schefer",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 14,
+      "materialCell": "H14",
+      "labelCell": "K14",
+      "photograph": "Photos/5:18/2002.05.026/DSC_7992.jpg",
+      "model": "3D Models/Fluting/GLB/2002.05.026.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Evening gown, aqua pleated. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2002.08.005",
+    "accession": "2002.08.005",
+    "collection": "Mantled",
+    "displayOrder": 1,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Evening dress, pink chiffon with flowers",
+    "designer": "Maker not recorded",
+    "date": "1974–1979",
+    "material": "Chiffon",
+    "credit": "Gift of Suzanne Caygill",
+    "footer": "CF+TC No. 2002.08.005",
+    "description": "Light pink chiffon evening dress with a mauve overlay, narrow straps, and a high empire waist. An attached chiffon sash wraps across the bodice and over one shoulder, where it gathers beneath a cluster of oversized fabric flowers. Smaller blossoms in pink, blue, and purple cascade down the front, drawing the eye along the length of the softly draped gown. The asymmetrical sash adds volume and movement to the otherwise slender silhouette.",
+    "image": "/images/2002.08.005.webp",
+    "thumbnail": "/images/2002.08.005-card.webp",
+    "imageAspect": "3872 / 5808",
+    "model": "/models/2002.08.005.glb",
+    "alt": "Collection photograph: Evening dress, pink chiffon with flowers, displayed on a mannequin.",
+    "labelSource": "Evening dress, pink chiffon with flowers\n\n1974–1979\n\nLight pink chiffon evening dress with a mauve overlay, narrow straps, and a high empire waist. An attached chiffon sash wraps across the bodice and over one shoulder, where it gathers beneath a cluster of oversized fabric flowers. Smaller blossoms in pink, blue, and purple cascade down the front, drawing the eye along the length of the softly draped gown. The asymmetrical sash adds volume and movement to the otherwise slender silhouette.\n\nCF+TC No. 2002.08.005. Gift of Suzanne Caygill",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 19,
+      "materialCell": "H19",
+      "labelCell": "K19",
+      "photograph": "Photos/5:18/2002.08.005/DSC_8019.jpg",
+      "model": "3D Models/Mantled/GLB/2002.08.005.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Evening dress, pink chiffon with flowers. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2002.08.015",
+    "accession": "2002.08.015",
+    "collection": "Mantled",
+    "displayOrder": 2,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Evening dress, cream chiffon with beading",
+    "designer": "Maker not recorded",
+    "date": "1974–1979",
+    "material": "Chiffon",
+    "credit": "Gift of Suzanne Caygill",
+    "footer": "CF+TC No. 2002.08.015",
+    "description": "Cream chiffon evening dress with a high empire waist and narrow shoulder straps. Silver beads form delicate leaf motifs across the bodice, providing a luminous contrast to the sheer fabric. A loosely attached chiffon scarf passes across the bust and shoulders before falling in long panels at either side, adding an airy outer layer that shifts between a scarf, mantle, and train as the wearer moves.",
+    "image": "/images/2002.08.015.webp",
+    "thumbnail": "/images/2002.08.015-card.webp",
+    "imageAspect": "3788 / 5682",
+    "model": "/models/2002.08.015.glb",
+    "alt": "Collection photograph: Evening dress, cream chiffon with beading, displayed on a mannequin.",
+    "labelSource": "Evening dress, cream chiffon with beading\n\n1974–1979\n\nCream chiffon evening dress with a high empire waist and narrow shoulder straps. Silver beads form delicate leaf motifs across the bodice, providing a luminous contrast to the sheer fabric. A loosely attached chiffon scarf passes across the bust and shoulders before falling in long panels at either side, adding an airy outer layer that shifts between a scarf, mantle, and train as the wearer moves.\n\nCF+TC No. 2002.08.015. Gift of Suzanne Caygill",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 21,
+      "materialCell": "H21",
+      "labelCell": "K21",
+      "photograph": "Photos/5:18/2002.08.015/DSC_8011.jpg",
+      "model": "3D Models/Mantled/GLB/2002.08.015.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Evening dress, cream chiffon with beading. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2002.08.016",
+    "accession": "2002.08.016",
+    "collection": "Mantled",
+    "displayOrder": 3,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Evening dress, yellow and brown chiffon",
+    "designer": "Maker not recorded",
+    "date": "1974–1979",
+    "material": "Chiffon",
+    "credit": "Gift of Suzanne Caygill",
+    "footer": "CF+TC No. 2002.08.016",
+    "description": "Yellow and brown chiffon evening dress cut in a long, narrow tubular silhouette. Subtle gradations of color shift from golden yellow to deeper brown, emphasizing the length of the garment. A draped panel extends from the neckline and fastens at the shoulders, falling freely along one side of the body like a mantle and bringing asymmetry and movement to the otherwise restrained form.",
+    "image": "/images/2002.08.016.webp",
+    "thumbnail": "/images/2002.08.016-card.webp",
+    "imageAspect": "3811 / 5717",
+    "model": "/models/2002.08.016.glb",
+    "alt": "Collection photograph: Evening dress, yellow and brown chiffon, displayed on a mannequin.",
+    "labelSource": "Evening dress, yellow and brown chiffon\n\n1974–1979\n\nYellow and brown chiffon evening dress cut in a long, narrow tubular silhouette. Subtle gradations of color shift from golden yellow to deeper brown, emphasizing the length of the garment. A draped panel extends from the neckline and fastens at the shoulders, falling freely along one side of the body like a mantle and bringing asymmetry and movement to the otherwise restrained form.\n\nCF+TC No. 2002.08.016. Gift of Suzanne Caygill",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 22,
+      "materialCell": "H22",
+      "labelCell": "K22",
+      "photograph": "Photos/5:18/2002.08.016/DSC_8034.jpg",
+      "model": "3D Models/Mantled/GLB/2002.08.016.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Evening dress, yellow and brown chiffon. Arrow keys rotate, plus and minus zoom, Home resets.",
+    "recordNote": "Date under review: the label gives 1974–1979; the catalog date field gives 1974–1980."
+  },
+  {
+    "id": "2002.08.006",
+    "accession": "2002.08.006",
+    "collection": "Mantled",
+    "displayOrder": 4,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Dress with chiffon wrap, light brown",
+    "designer": "Maker not recorded",
+    "date": "1974–1979",
+    "material": "Chiffon",
+    "credit": "Gift of Suzanne Caygill",
+    "footer": "CF+TC No. 2002.08.006",
+    "description": "Light brown slip dress with a high neckline and side slit, layered beneath a sheer chiffon overdress. Cut in a loose, enveloping form, the chiffon falls from the shoulders in broad panels that extend beyond the hem and trail behind the wearer. Gradations of brown emphasize the transparency and overlapping layers of the fabric, giving the simple silhouette depth and a fluid, cape-like quality.",
+    "image": "/images/2002.08.006.webp",
+    "thumbnail": "/images/2002.08.006-card.webp",
+    "imageAspect": "3736 / 5604",
+    "model": "/models/2002.08.006.glb",
+    "alt": "Collection photograph: Dress with chiffon wrap, light brown, displayed on a mannequin.",
+    "labelSource": "Dress with chiffon wrap, light brown\n\n1974–1979\n\nLight brown slip dress with a high neckline and side slit, layered beneath a sheer chiffon overdress. Cut in a loose, enveloping form, the chiffon falls from the shoulders in broad panels that extend beyond the hem and trail behind the wearer. Gradations of brown emphasize the transparency and overlapping layers of the fabric, giving the simple silhouette depth and a fluid, cape-like quality.\n\nCF+TC No. 2002.08.006. Gift of Suzanne Caygill",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 20,
+      "materialCell": "H20",
+      "labelCell": "K20",
+      "photograph": "Photos/5:18/2002.08.006/DSC_8026.jpg",
+      "model": "3D Models/Mantled/GLB/2002.08.006.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Dress with chiffon wrap, light brown. Arrow keys rotate, plus and minus zoom, Home resets.",
+    "recordNote": "The label and catalog description differ on the neckline. The label text is reproduced here pending review."
+  },
+  {
+    "id": "2026.06.143",
+    "accession": "2026.06.143",
+    "collection": "Mantled",
+    "displayOrder": 5,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Stone fluted jersey gown",
+    "designer": "Ralph Rucci",
+    "date": "Spring 2006, Haute Couture",
+    "material": "Jersey",
+    "credit": "Anonymous gift",
+    "footer": "Ralph Rucci Collection, CF+TC No. 2026.06.143",
+    "description": "Stone-colored jersey floor-length gown with narrow shoulder straps and a softly scooped neckline. Curved horizontal pleats contour the bodice, meeting a shaped waistline with small cutouts at the hips. Below, dramatically fluted panels radiate from gathered points at the front and back, cascading into a long trained skirt. Swathed bands of jersey secure the flutes and terminate in tassels, transforming the fluid fabric into a carefully controlled arrangement of folds, weight, and movement.",
+    "image": "/images/2026.06.143.webp",
+    "thumbnail": "/images/2026.06.143-card.webp",
+    "imageAspect": "3684 / 5526",
+    "model": "/models/2026.06.143.glb",
+    "alt": "Collection photograph: Stone fluted jersey gown, displayed on a mannequin.",
+    "labelSource": "Stone fluted jersey gown\n\nSpring 2006, Haute Couture\n\nRalph Rucci\n\nStone-colored jersey floor-length gown with narrow shoulder straps and a softly scooped neckline. Curved horizontal pleats contour the bodice, meeting a shaped waistline with small cutouts at the hips. Below, dramatically fluted panels radiate from gathered points at the front and back, cascading into a long trained skirt. Swathed bands of jersey secure the flutes and terminate in tassels, transforming the fluid fabric into a carefully controlled arrangement of folds, weight, and movement.\n\nRalph Rucci Collection, CF+TC No. 2026.06.143. Anonymous gift",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 23,
+      "materialCell": "H23",
+      "labelCell": "K23",
+      "photograph": "Photos/RR/2026.06.143/DSC_8110.jpg",
+      "model": "3D Models/Mantled/GLB/2026.06.143.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Stone fluted jersey gown. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "322",
+    "accession": "322",
+    "collection": "Meander",
+    "displayOrder": 1,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Wrap, raw silk",
+    "designer": "Maker not recorded",
+    "date": "Before 1937",
+    "material": "Raw silk",
+    "credit": "Gift of the Estate of Charles Jervis Langdon",
+    "footer": "CF+TC No. 322",
+    "description": "Cream raw silk hooded wrap with inlaid gold-thread borders, widely spaced geometric motifs, arched ends, and white-and-gold tassels. Its loose, rectangular construction emphasizes the textile rather than a tailored silhouette, recalling the enveloping forms of Mediterranean and North African cloaks that influenced European evening wear in the early twentieth century. Metallic thread and ornamental tassels transform the simple draped form into a luxurious outer garment.",
+    "image": "/images/322.webp",
+    "thumbnail": "/images/322-card.webp",
+    "imageAspect": "4000 / 6000",
+    "model": "/models/322.glb",
+    "alt": "Collection photograph: Wrap, raw silk, displayed on a mannequin.",
+    "labelSource": "Wrap, raw silk\n\nBefore 1937\n\nCream raw silk hooded wrap with inlaid gold-thread borders, widely spaced geometric motifs, arched ends, and white-and-gold tassels. Its loose, rectangular construction emphasizes the textile rather than a tailored silhouette, recalling the enveloping forms of Mediterranean and North African cloaks that influenced European evening wear in the early twentieth century. Metallic thread and ornamental tassels transform the simple draped form into a luxurious outer garment.\n\nCF+TC No. 322. Gift of the Estate of Charles Jervis Langdon",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 24,
+      "materialCell": "H24",
+      "labelCell": "K24",
+      "photograph": "Photos/5:27/322/DSC_8255.jpg",
+      "model": "3D Models/Meander/GLB/322.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Wrap, raw silk. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2002.09.066",
+    "accession": "2002.09.066",
+    "collection": "Meander",
+    "displayOrder": 2,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Dress, white silk with orange and black print",
+    "designer": "Maker not recorded",
+    "date": "1927",
+    "material": "Silk",
+    "credit": "Gift of Elizabeth Schmeck Brown",
+    "footer": "CF+TC No. 2002.09.066",
+    "description": "White silk dress printed with directional geometric motifs in black and orange. The simple, straight silhouette provides an open ground for the bold surface pattern, which becomes denser and more regular toward the hem. Pleats inserted at the lower side seams introduce subtle movement, while a ribbon and bow finish the scooped neckline. The strong geometry and contrasting palette reflect the growing prominence of stylized pattern in 1920s dress.",
+    "image": "/images/2002.09.066.webp",
+    "thumbnail": "/images/2002.09.066-card.webp",
+    "imageAspect": "3523 / 5284",
+    "model": "/models/2002.09.066.glb",
+    "alt": "Collection photograph: Dress, white silk with orange and black print, displayed on a mannequin.",
+    "labelSource": "Dress, white silk with orange and black print\n\n1927\n\nWhite silk dress printed with directional geometric motifs in black and orange. The simple, straight silhouette provides an open ground for the bold surface pattern, which becomes denser and more regular toward the hem. Pleats inserted at the lower side seams introduce subtle movement, while a ribbon and bow finish the scooped neckline. The strong geometry and contrasting palette reflect the growing prominence of stylized pattern in 1920s dress.\n\nCF+TC No. 2002.09.066. Gift of Elizabeth Schmeck Brown",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 26,
+      "materialCell": "H26",
+      "labelCell": "K26",
+      "photograph": "Photos/5:27/2002.09.066/DSC_8195.jpg",
+      "model": "3D Models/Meander/GLB/2002.09.066.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Dress, white silk with orange and black print. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "1995.07.009",
+    "accession": "1995.07.009",
+    "collection": "Meander",
+    "displayOrder": 3,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Dress, beige satin and beading",
+    "designer": "Maker not recorded",
+    "date": "1960–1969",
+    "material": "Satin",
+    "credit": "Gift of Judith Eissner",
+    "footer": "CF+TC No. 1995.07.009",
+    "description": "Beige satin dress with dense geometric beading across the bodice and waist. Bands of brown, gold, and metallic embellishment form a broad decorative border around the shoulders, recalling the visual effect of a jeweled collar. A second band encircles the waist, contrasting with the otherwise spare, straight silhouette and unornamented satin skirt.",
+    "image": "/images/1995.07.009.webp",
+    "thumbnail": "/images/1995.07.009-card.webp",
+    "imageAspect": "4000 / 6000",
+    "model": "/models/1995.07.009.glb",
+    "alt": "Collection photograph: Dress, beige satin and beading, displayed on a mannequin.",
+    "labelSource": "Dress, beige satin and beading\n\n1960–1969\n\nBeige satin dress with dense geometric beading across the bodice and waist. Bands of brown, gold, and metallic embellishment form a broad decorative border around the shoulders, recalling the visual effect of a jeweled collar. A second band encircles the waist, contrasting with the otherwise spare, straight silhouette and unornamented satin skirt.\n\nCF+TC No. 1995.07.009. Gift of Judith Eissner",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 25,
+      "materialCell": "H25",
+      "labelCell": "K25",
+      "photograph": "Photos/5:27/1995.07.009/DSC_8236.jpg",
+      "model": "3D Models/Meander/GLB/1995.07.009.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Dress, beige satin and beading. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2015.08.001",
+    "accession": "2015.08.001",
+    "collection": "Meander",
+    "displayOrder": 4,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Dress, beige chiffon with beading",
+    "designer": "Maker not recorded",
+    "date": "1925–1929",
+    "material": "Chiffon",
+    "credit": "Gift of Ann McAdams",
+    "footer": "CF+TC No. 2015.08.001",
+    "description": "Sleeveless beige-peach chiffon evening dress lavishly embellished with white and silver seed beads, bugle beads, sequins, and rhinestones. Linear geometric beading extends to the dropped waist, where large medallions and scalloped forms give way to a deep beaded fringe that creates a false hem. A triangular cutout at the back is edged with loose swags of beads. The combination of geometric ornament and swinging fringe animates the dress as the wearer moves.",
+    "image": "/images/2015.08.001.webp",
+    "thumbnail": "/images/2015.08.001-card.webp",
+    "imageAspect": "4000 / 6000",
+    "model": "/models/2015.08.001.glb",
+    "alt": "Collection photograph: Dress, beige chiffon with beading, displayed on a mannequin.",
+    "labelSource": "Dress, beige chiffon with beading\n\n1925–1929\n\nSleeveless beige-peach chiffon evening dress lavishly embellished with white and silver seed beads, bugle beads, sequins, and rhinestones. Linear geometric beading extends to the dropped waist, where large medallions and scalloped forms give way to a deep beaded fringe that creates a false hem. A triangular cutout at the back is edged with loose swags of beads. The combination of geometric ornament and swinging fringe animates the dress as the wearer moves.\n\nCF+TC No. 2015.08.001. Gift of Ann McAdams",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 27,
+      "materialCell": "H27",
+      "labelCell": "K27",
+      "photograph": "Photos/5:27/2015.08.001/DSC_8268.jpg",
+      "model": "3D Models/Meander/GLB/2015.08.001.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Dress, beige chiffon with beading. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2024.08.007abc",
+    "accession": "2024.08.007abc",
+    "collection": "Meander",
+    "displayOrder": 5,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Wedding gown and cape, ivory beaded knit",
+    "designer": "Hugh S. Byfield",
+    "date": "1980–1989",
+    "material": "Silk knit (?) with faux pearl, rhinestones, and bugle beads",
+    "credit": "Gift of Judith Byfield; formerly worn by Ruth Brown",
+    "footer": "CF+TC No. 2024.08.007abc",
+    "description": "Ivory knit wedding gown embellished with silver bugle beads, rhinestones, and faux pearls. Geometric beadwork frames the neckline and extends down the center front, while long strands of pearls hang freely from the bodice. At the back, a plunging V-neck is crossed by multiple strands of pearls, reversing the effect of layered necklaces. A coordinating cape, gathered at the shoulders and joined only at the back, frames rather than conceals this elaborate decoration, adding volume to the otherwise long, straight silhouette.",
+    "image": "/images/2024.08.007abc.webp",
+    "thumbnail": "/images/2024.08.007abc-card.webp",
+    "imageAspect": "4000 / 6000",
+    "model": "/models/2024.08.007abc.glb",
+    "alt": "Collection photograph: Wedding gown and cape, ivory beaded knit, displayed on a mannequin.",
+    "labelSource": "Wedding gown and cape, ivory beaded knit\n\n1980–1989\n\nHugh S. Byfield\n\nIvory knit wedding gown embellished with silver bugle beads, rhinestones, and faux pearls. Geometric beadwork frames the neckline and extends down the center front, while long strands of pearls hang freely from the bodice. At the back, a plunging V-neck is crossed by multiple strands of pearls, reversing the effect of layered necklaces. A coordinating cape, gathered at the shoulders and joined only at the back, frames rather than conceals this elaborate decoration, adding volume to the otherwise long, straight silhouette.\n\nCF+TC No. 2024.08.007abc. Gift of Judith Byfield; formerly worn by Ruth Brown",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 28,
+      "materialCell": "H28",
+      "labelCell": "K28",
+      "photograph": "Photos/5:27/2024.08.007abc/DSC_8240.jpg",
+      "model": "3D Models/Meander/GLB/2024.08.007abc.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Wedding gown and cape, ivory beaded knit. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2015.30.016",
+    "accession": "2015.30.016",
+    "collection": "Gilded",
+    "displayOrder": 1,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Dress, black Assuit",
+    "designer": "Maker not recorded",
+    "date": "Date unknown",
+    "material": "black Assuit technique",
+    "credit": "Gift of Charlotte Jirousek",
+    "footer": "CF+TC No. 2015.30.016",
+    "description": "Long-sleeved black net dress embellished with metal strips using the Egyptian Assuit technique, in which thin pieces of metal are folded and hammered directly into an open mesh ground. The metallic decoration forms repeating geometric patterns across the sheer surface, including a prominent diamond motif at the hip. A deep V-neckline and mid-calf length emphasize the garment’s elongated form, while the metalwork gives the lightweight textile a distinctive weight, shimmer, and movement.",
+    "image": "/images/2015.30.016.webp",
+    "thumbnail": "/images/2015.30.016-card.webp",
+    "imageAspect": "4000 / 6000",
+    "model": "/models/2015.30.016.glb",
+    "alt": "Collection photograph: Dress, black Assuit, displayed on a mannequin.",
+    "labelSource": "Dress, black Assuit\n\nDate unknown\n\nLong-sleeved black net dress embellished with metal strips using the Egyptian Assuit technique, in which thin pieces of metal are folded and hammered directly into an open mesh ground. The metallic decoration forms repeating geometric patterns across the sheer surface, including a prominent diamond motif at the hip. A deep V-neckline and mid-calf length emphasize the garment’s elongated form, while the metalwork gives the lightweight textile a distinctive weight, shimmer, and movement.\n\nCF+TC No. 2015.30.016. Gift of Charlotte Jirousek",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 32,
+      "materialCell": "H32",
+      "labelCell": "K32",
+      "photograph": "Photos/5:27/2015.30.016/DSC_8263.jpg",
+      "model": "3D Models/Gilded/GLB/2015.30.016.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Dress, black Assuit. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "883",
+    "accession": "883",
+    "collection": "Gilded",
+    "displayOrder": 2,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Formal dress, black satin and gold beads",
+    "designer": "Maker not recorded",
+    "date": "1920–1929",
+    "material": "Satin with gold bead embellishments",
+    "credit": "Donor unknown",
+    "footer": "CF+TC No. 883",
+    "description": "Black satin evening dress with elaborate gold beading arranged along the deep square neckline and across the skirt in dense geometric and foliate motifs. Amber rhinestones accent the back neckline, while rounded, heavily beaded tabs form the hem. The loose, elongated silhouette and richly ornamented surface reflect the 1920s preference for dresses that emphasized movement, textile, and decoration over a fitted waist.",
+    "image": "/images/883.webp",
+    "thumbnail": "/images/883-card.webp",
+    "imageAspect": "4000 / 6000",
+    "model": "/models/883.glb",
+    "alt": "Collection photograph: Formal dress, black satin and gold beads, displayed on a mannequin.",
+    "labelSource": "Formal dress, black satin and gold beads\n\n1920–1929\n\nBlack satin evening dress with elaborate gold beading arranged along the deep square neckline and across the skirt in dense geometric and foliate motifs. Amber rhinestones accent the back neckline, while rounded, heavily beaded tabs form the hem. The loose, elongated silhouette and richly ornamented surface reflect the 1920s preference for dresses that emphasized movement, textile, and decoration over a fitted waist.\n\nCF+TC No. 883. Donor unknown",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 29,
+      "materialCell": "H29",
+      "labelCell": "K29",
+      "photograph": "Photos/5:27/883/DSC_8277.jpg",
+      "model": "3D Models/Gilded/GLB/883.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Formal dress, black satin and gold beads. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "1999.17.001",
+    "accession": "1999.17.001",
+    "collection": "Gilded",
+    "displayOrder": 3,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Dress, black silk with blue trim",
+    "designer": "Maker not recorded",
+    "date": "1926",
+    "material": "Silk with metallic and applique embellishments",
+    "credit": "Gift of Anne Powell Gatti",
+    "footer": "CF+TC No. 1999.17.001",
+    "description": "Black silk dress trimmed in vivid blue, with metallic embroidery and appliqué concentrated along the neckline, center front, and hem. Colorful geometric and stylized floral motifs create a richly patterned border against the dark ground. Its straight, loose silhouette and emphasis on surface decoration are characteristic of 1920s evening dress, when designers frequently drew upon textiles and ornamental traditions from beyond Europe.",
+    "image": "/images/1999.17.001.webp",
+    "thumbnail": "/images/1999.17.001-card.webp",
+    "imageAspect": "3682 / 5523",
+    "model": "/models/1999.17.001.glb",
+    "alt": "Collection photograph: Dress, black silk with blue trim, displayed on a mannequin.",
+    "labelSource": "Dress, black silk with blue trim\n\n1926\n\nBlack silk dress trimmed in vivid blue, with metallic embroidery and appliqué concentrated along the neckline, center front, and hem. Colorful geometric and stylized floral motifs create a richly patterned border against the dark ground. Its straight, loose silhouette and emphasis on surface decoration are characteristic of 1920s evening dress, when designers frequently drew upon textiles and ornamental traditions from beyond Europe.\n\nCF+TC No. 1999.17.001. Gift of Anne Powell Gatti",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 31,
+      "materialCell": "H31",
+      "labelCell": "K31",
+      "photograph": "Photos/5:27/1999.17.001/DSC_8200.jpg",
+      "model": "3D Models/Gilded/GLB/1999.17.001.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Dress, black silk with blue trim. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "2017.47.003",
+    "accession": "2017.47.003",
+    "collection": "Gilded",
+    "displayOrder": 4,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Dress, black with iridescent beading",
+    "designer": "Maker not recorded",
+    "date": "1920s–1930s",
+    "material": "Sheer over satin",
+    "credit": "Gift of Margaret Bramhall",
+    "footer": "CF+TC No. 2017.47.003",
+    "description": "Black sheer dress layered over black satin, with a V-neckline, inset front panel, dropped waist, and softly gathered skirt. Teal binding traces the neckline and wrists, while strands of blue, purple, and iridescent beads descend across the bodice in sweeping, necklace-like curves. Against the dark ground, the shifting colors of the beadwork draw attention to the upper body and add a sense of depth and movement to the loose silhouette.",
+    "image": "/images/2017.47.003.webp",
+    "thumbnail": "/images/2017.47.003-card.webp",
+    "imageAspect": "4000 / 6000",
+    "model": "/models/2017.47.003.glb",
+    "alt": "Collection photograph: Dress, black with iridescent beading, displayed on a mannequin.",
+    "labelSource": "Dress, black with iridescent beading\n\n1920s–1930s\n\nBlack sheer dress layered over black satin, with a V-neckline, inset front panel, dropped waist, and softly gathered skirt. Teal binding traces the neckline and wrists, while strands of blue, purple, and iridescent beads descend across the bodice in sweeping, necklace-like curves. Against the dark ground, the shifting colors of the beadwork draw attention to the upper body and add a sense of depth and movement to the loose silhouette.\n\nCF+TC No. 2017.47.003. Gift of Margaret Bramhall",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 33,
+      "materialCell": "H33",
+      "labelCell": "K33",
+      "photograph": "Photos/5:27/2017.47.003/DSC_8272.jpg",
+      "model": "3D Models/Gilded/GLB/2017.47.003.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Dress, black with iridescent beading. Arrow keys rotate, plus and minus zoom, Home resets."
+  },
+  {
+    "id": "1997.17.017ab",
+    "accession": "1997.17.017ab",
+    "collection": "Gilded",
+    "displayOrder": 5,
+    "alternate": false,
+    "hotspots": [],
+    "views": [
+      {
+        "id": "full",
+        "label": "Full length",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail",
+        "label": "Closer look",
+        "scale": 2,
+        "origin": "50% 35%"
+      }
+    ],
+    "note": "Explore the photograph and the material record below.",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "title": "Evening ensemble, dress and pullover",
+    "designer": "Maker not recorded",
+    "date": "1965–1985",
+    "material": "Rayon Knit",
+    "credit": "Gift of John Rowan",
+    "footer": "CF+TC No. 1997.17.017ab",
+    "description": "Two-piece evening ensemble pairing a strapless gray rayon knit dress with a sheer gray gauze pullover woven with gold thread. The loose, diaphanous top falls asymmetrically over the fitted dress beneath, creating a layered silhouette in which the metallic surface catches the light while partially revealing the darker form underneath. Draping at the neckline and waist softens the contrast between the two pieces.",
+    "image": "/images/1997.17.017ab.webp",
+    "thumbnail": "/images/1997.17.017ab-card.webp",
+    "imageAspect": "4000 / 6000",
+    "model": "/models/1997.17.017ab.glb",
+    "alt": "Collection photograph: Evening ensemble, dress and pullover, displayed on a mannequin.",
+    "labelSource": "Evening ensemble, dress and pullover\n\n1965–1985\n\nTwo-piece evening ensemble pairing a strapless gray rayon knit dress with a sheer gray gauze pullover woven with gold thread. The loose, diaphanous top falls asymmetrically over the fitted dress beneath, creating a layered silhouette in which the metallic surface catches the light while partially revealing the darker form underneath. Draping at the neckline and waist softens the contrast between the two pieces.\n\nCF+TC No. 1997.17.017ab. Gift of John Rowan",
+    "provenance": {
+      "workbook": "Exhibition Tracking List.xlsx",
+      "sheet": "Labels",
+      "row": 30,
+      "materialCell": "H30",
+      "labelCell": "K30",
+      "photograph": "Photos/5:27/1997.17.017ab/DSC_8215.jpg",
+      "model": "3D Models/Gilded/GLB/1997.17.017ab.glb"
+    },
+    "modelDescription": "Rotatable reconstruction of Evening ensemble, dress and pullover. Arrow keys rotate, plus and minus zoom, Home resets."
+  }
+]

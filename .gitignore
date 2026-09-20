@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+
+# Local research, source records, and working documents
+archive/
+docs/
+AGENTS.md
+scripts/asset-sources.json
+.env
+.env.*
+*.log
