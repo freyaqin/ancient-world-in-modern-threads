@@ -1,3 +1,4 @@
+import Arrow from './Arrow';
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import ObjectPage from './ObjectPage';
@@ -23,6 +24,6 @@ function App() {
   else page=<main id="content" className="explore-page not-found" tabIndex="-1"><h1>Page not found</h1><p>This object or display is not available in this preview.</p><a className="primary-link" href="#/map">Return to the exhibition map</a></main>;
   useEffect(()=>{document.title=title===site.title?title:`${title} · ${site.title}`;},[title]);
   const isObject=parts[1]==='object' && !!item;
-  return <><a className="skip-link" href="#content" onClick={event=>{event.preventDefault();document.getElementById('content')?.focus();}}>Skip to content</a><header className="exhibition-header"><a href="#/" className="exhibition-brand">Ancient World<span>in Modern Threads</span></a><nav aria-label="Main navigation"><a href="#/" aria-current={route==='/'?'page':undefined}>Home</a><a href="#/map" aria-current={route==='/map'?'page':undefined}>Exhibition map</a></nav></header>{page}{!isObject && <footer className="exhibition-footer"><span>{site.title}</span><span>{site.subtitle}</span><a href="#/map">Explore the map ↗</a></footer>}</>;
+  return <><a className="skip-link" href="#content" onClick={event=>{event.preventDefault();document.getElementById('content')?.focus();}}>Skip to content</a><header className="exhibition-header"><a href="#/" className="exhibition-brand">Ancient World<span>in Modern Threads</span></a><nav aria-label="Main navigation"><a href="#/" aria-current={route==='/'?'page':undefined}>Home</a><a href="#/map" aria-current={route==='/map'?'page':undefined}>Exhibition map</a></nav></header>{page}{!isObject && <footer className="exhibition-footer"><span>{site.title}</span><span>{site.subtitle}</span><a href="#/map">Explore the map <Arrow direction="diagonal"/></a></footer>}</>;
 }
 createRoot(document.getElementById('root')).render(<App/>);

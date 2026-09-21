@@ -1,3 +1,4 @@
+import Arrow from './Arrow';
 import React, { lazy, Suspense, useRef, useState } from 'react';
 
 import { cases, runwayNotes } from './data/exhibition';
@@ -69,8 +70,8 @@ export default function ObjectPage({ object }) {
         </>}
         {object.recordNote && <p className="record-note">{object.recordNote}</p>}
         {runway && <details className="material-detail"><summary>Runway context</summary>{runway.collection && <p>{runway.collection}</p>}<p>Runway model: {runway.model}</p>{runway.possibleModel && <p>Possible identification: {runway.possibleModel} (unconfirmed).</p>}</details>}
-        {position >= 0 && <nav className="object-sequence" aria-label="Objects in display order">{position > 0 && <a href={objectUrl(group.objects[position-1])}>← Previous object</a>}{position < group.objects.length-1 && <a href={objectUrl(group.objects[position+1])}>Next object →</a>}</nav>}
-        <a className="case-return" href={caseUrl(object.collection)}>See this object in {object.collection} →</a>
+        {position >= 0 && <nav className="object-sequence" aria-label="Objects in display order">{position > 0 && <a href={objectUrl(group.objects[position-1])}><Arrow direction="left"/> Previous object</a>}{position < group.objects.length-1 && <a href={objectUrl(group.objects[position+1])}>Next object <Arrow direction="right"/></a>}</nav>}
+        <a className="case-return" href={caseUrl(object.collection)}>See this object in {object.collection} <Arrow direction="right"/></a>
         <section id="interpretation" className={`interpretation ${active ? 'is-open' : ''}`} aria-label="Selected garment detail" hidden={!active} onKeyDown={e => { if (e.key === 'Escape') closeDetail(); }}>
           {active && <><div className="detail-top"><span className="eyebrow">Detail {active.number} / {active.label}</span><button className="close-button" aria-label="Close detail" onClick={closeDetail}><Icon name="close" /></button></div><div ref={detailRef} tabIndex="-1" className="detail-copy"><h2>{active.title}</h2><p>{active.text}</p></div></>}
         </section>

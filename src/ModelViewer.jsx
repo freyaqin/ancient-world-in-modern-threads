@@ -1,3 +1,4 @@
+import Arrow from './Arrow';
 import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
@@ -129,8 +130,8 @@ export default function ModelViewer({ object }) {
     <p role="status" className="model-status">{status}</p>
     {failed && <button className="retry-button" onClick={() => setAttempt(value => value + 1)}>Retry 3D view</button>}
     <div className="model-controls" aria-label="3D model controls">
-      <button disabled={!ready} onClick={() => actions.current?.left()} aria-label="Rotate left">↶</button>
-      <button disabled={!ready} onClick={() => actions.current?.right()} aria-label="Rotate right">↷</button>
+      <button disabled={!ready} onClick={() => actions.current?.left()} aria-label="Rotate left"><Arrow direction="rotate-left"/></button>
+      <button disabled={!ready} onClick={() => actions.current?.right()} aria-label="Rotate right"><Arrow direction="rotate-right"/></button>
       <button disabled={!ready} onClick={() => actions.current?.in()} aria-label="Zoom in">+</button>
       <button disabled={!ready} onClick={() => actions.current?.out()} aria-label="Zoom out">−</button>
       <button disabled={!ready} onClick={() => actions.current?.reset()}>Reset</button>
