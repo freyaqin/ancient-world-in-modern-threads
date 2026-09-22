@@ -3,9 +3,14 @@
 export const site = {
   title: 'Ancient World in Modern Threads',
   subtitle: 'A digital exhibition companion',
-  introduction: 'How does the ancient world find its way into the clothes we wear? Through folds, silhouettes, and ornament, this exhibition explores how modern fashion reinterprets the visual languages of the ancient Mediterranean and Egypt.',
-  about: 'A pleat can echo a column. A length of cloth can become a mantle. A geometric border can travel between places and times. Bringing garments into conversation through their form, material, and construction, Ancient World in Modern Threads invites a closer look at these changing relationships.',
-  approach: 'Resemblance is a starting point for looking, not proof of direct influence. Explore what changes as forms are translated into new materials, techniques, and contexts.',
+  introduction: "Ancient forms rarely remain fixed in the past. They travel across geography, materials, bodies, and time. This exhibition traces how the ancient Mediterranean and Egypt resurface in twentieth- and twenty-first-century fashion.",
+  about: "Garments from the Cornell Fashion + Textile Collection—including works from the newly gifted Ralph Rucci collection—enter into conversation with objects from the Herbert F. Johnson Museum of Art and Cornell Anthropology Collections. Casts from Cornell’s historic Plaster Cast Collection bring sculptural line, volume, and proportion into dialogue with wearable structure.",
+  approach: "Rather than following a chronology, the exhibition is organized around modes of visual translation. Explore how ancient forms, gestures, and surfaces are reinterpreted through modern dress.",
+  researchTitle: "Designing Proximity: Interactive Strategies for Visitor Engagement in Fashion Exhibitions",
+  researchIntroduction: "This exhibition and its digital companion support Freya Qin’s M.A. thesis research, exploring how designed interfaces can bring visitors nearer to fashion objects while the objects themselves remain untouched.",
+  researchQuote: "Looking is one point of entry; touching, manipulating, comparing, and exploring digitally offer others—each a different route toward the same understanding.",
+  researchInterfaces: "Near Fluting, five tactile pages pair construction drawings with mock-up swatches, responding to the original 1950s textile sample book in the case. Alongside 3D-printed figurines and Ralph Rucci’s sketches in a separate wall display, they extend the exploration of garment form. This website adds close-up photographs, rotatable 3D reconstructions, and comparisons between objects.",
+  researchNotice: "As part of the research associated with this exhibition, visitors’ interactions with the displays and interpretive interfaces may be observed by the curator-researcher to better understand how people engage with fashion in an exhibition setting.",
 };
 export const caseStories = {
   Cascade: { number: '01', line: 'Cloth in motion', description: 'Follow the fall of fabric: folds gather, release, and cascade around the body.', location: 'Main gallery · west side' },

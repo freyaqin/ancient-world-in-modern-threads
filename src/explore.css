@@ -16,7 +16,7 @@
 .interactive-station{left:25%;right:auto;top:77%;bottom:auto;width:2%;height:11%;min-width:4px;padding:0;border:0;background:#727e67}
 .interactive-station>span{position:absolute;right:calc(100% + 8px);top:50%;transform:translateY(-50%);white-space:nowrap;text-align:right;font-size:10px;line-height:1.5;color:#105681}
 .case-heading{align-items:start}.case-heading .case-lead{font:400 clamp(22px,2.4vw,32px)/1.45 Georgia,serif;color:var(--ink);max-width:520px;margin:20px 0}
-.case-interpretation{columns:2;column-gap:50px;padding:0 0 28px;max-width:1150px}.case-interpretation p{font-size:14px;line-height:1.9;margin:0 0 18px;break-inside:avoid;color:#50594b}
+.case-interpretation{columns:2;column-gap:50px;padding:0 0 28px;max-width:1150px}.case-interpretation p{font-size:14px;line-height:1.9;margin:0 0 18px;break-inside:avoid;color:var(--ink)}
 @media(max-width:759px){.case-interpretation{columns:1;padding-bottom:18px}.case-interpretation p{font-size:14px}.case-heading .case-lead{margin:0 0 8px}.floor-plan{min-height:400px}.map-case{box-shadow:2px 2px 0 #dcebec}.map-case strong{font-size:12px}.map-case.contrapposto strong{font-size:11px}.map-case small{font-size:9px}.map-case.cascade{padding-left:2px;padding-right:2px}.interactive-station>span{font-size:9px;right:calc(100% + 5px)}}
 .map-panel,.map-directory{min-width:0}.floor-plan{width:100%;height:480px;aspect-ratio:auto}
 @media(max-width:759px){.floor-plan{height:400px}}
@@ -73,3 +73,12 @@
 .start-exploring{border-top-color:var(--teal)}
 .how-to{border-left:3px solid var(--teal)}
 .map-case:hover{border-color:var(--accent)}
+
+.home-research{display:grid;grid-template-columns:1fr 1.3fr;gap:7%;padding:48px 0;border-bottom:1px solid var(--line)}
+.home-research h3{font-size:25px;line-height:1.4;margin:0 0 20px}
+.home-research p{font-size:14px;color:var(--ink)}
+.home-research blockquote{margin:24px 0 0;padding-left:20px;border-left:2px solid var(--teal)}
+.home-research blockquote p{font:21px/1.6 Georgia,serif}
+.home-research cite{font:11px 'DM Sans',sans-serif;color:var(--muted)}
+.home-research .research-notice{font-size:12px;border-top:1px solid var(--line);padding-top:18px}
+@media(max-width:759px){.home-research{grid-template-columns:1fr;gap:30px;padding:36px 0}}

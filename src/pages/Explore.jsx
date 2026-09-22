@@ -33,6 +33,7 @@ export function Home() {
       </section>
     </section>
     <section className="home-about"><p className="eyebrow">Looking across time</p><div><h2>Ancient forms.<br/>New ways of making.</h2><p>{site.about}</p><p>{site.approach}</p></div></section>
+    <section className="home-research" aria-labelledby="research-heading"><div><p className="eyebrow">Proximity / Exhibition research</p><h2 id="research-heading">Fashion within reach</h2><blockquote><p>{site.researchQuote}</p><cite>From the Proximity wall text</cite></blockquote></div><div><h3>{site.researchTitle}</h3><p>{site.researchIntroduction}</p><p>{site.researchInterfaces}</p><p className="research-notice">{site.researchNotice}</p></div></section>
     <section className="theme-section"><div className="section-heading"><div><p className="eyebrow">Find a thread to follow</p><h2>Explore by theme</h2></div><a className="quiet-link" href="#/map">See the spatial map <Arrow direction="diagonal"/></a></div><CaseLinks/></section>
     <section className="how-to"><h2>A closer encounter</h2><p>Find a case on the map, see the objects together, then open a garment to examine its details. Within each case, compare two objects and follow the changes in material, technique, and form.</p></section>
   </main>;

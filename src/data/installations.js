@@ -82,38 +82,37 @@ export const installations = {
   },
   "Fluting": {
     "name": "Fluting",
-    "image": "/cases/fluting.webp",
-    "source": "Mocked Cases/Fluting After.png",
-    "alt": "Proposed Fluting installation: a sculptural cast at the left, a dark blue gown, green Fortuny gown, aqua ensemble, striped garment, and ivory beaded dress, with a book and screen between them.",
-    "width": 1698,
-    "height": 1276,
-    "minWidth": 460,
-    "note": "Numbers match the object grid. The mockup places the borrowed Madame Grès garment at the left; the saved object order is unchanged.",
+    "image": "/cases/fluting-right-order.webp",
+    "source": "Mocked Cases/fluting right order.png",
+    "alt": "Proposed Fluting installation: a sculptural cast at the left, followed by the green Fortuny gown, aqua ensemble, blue-and-gray pleated garment, ivory beaded dress, and dark blue gown, with a sample book and screen at the center.",
+    "width": 2022,
+    "height": 1514,
+    "minWidth": 500,
     "markers": [
       {
         "id": "2021.12.001",
-        "x": 36,
-        "y": 62
+        "x": 25.8,
+        "y": 59
       },
       {
         "id": "2012.08.027ab",
-        "x": 62,
-        "y": 62
+        "x": 37.5,
+        "y": 59
       },
       {
         "id": "loan-issey-miyake",
-        "x": 74,
-        "y": 62
+        "x": 62.7,
+        "y": 59
       },
       {
         "id": "2026.06.301",
-        "x": 85,
-        "y": 62
+        "x": 75.2,
+        "y": 59
       },
       {
         "id": "loan-madame-gres",
-        "x": 23.5,
-        "y": 62
+        "x": 85.5,
+        "y": 59
       }
     ]
   },
