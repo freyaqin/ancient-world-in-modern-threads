@@ -1,99 +1,474 @@
 {
   "3136": {
-    "description": "Pleating gives this red satin gown its structure. The collection record describes folds extending from neckline to hem, with full sleeves continuing the same fall of fabric. In Cascade, the gown offers a way to consider how repetition can make a generous volume read as a single, continuous form. Its effect depends on the relationship between the gathered cloth and the body beneath it: the surface supplies a sense of movement even when the wearer stands still."
+    "description": "Pleating gives this red satin gown its structure. The collection record describes folds extending from neckline to hem, with full sleeves continuing the same fall of fabric. In Cascade, the gown offers a way to consider how repetition can make a generous volume read as a single, continuous form. Its effect depends on the relationship between the gathered cloth and the body beneath it: the surface supplies a sense of movement even when the wearer stands still.",
+    "title": "Red satin plissé tea gown",
+    "question": "How might these folds change the way the red satin moves around a body?",
+    "designer": "Balenciaga",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 2,
+      "makerColumn": "J",
+      "makerEntry": "Balenciaga",
+      "donorColumn": "I",
+      "donorEntry": "Smithsonian Institute"
+    }
   },
   "2012.08.026abcde": {
     "description": "Vivid pink gathers the parts of this ensemble into a continuous field of color, while changes in texture distinguish one layer from another. The collection record identifies a tunic, skirt, underskirt, overcoat, and purse. Pleating, crushed surfaces, and beaded details give the silk a visual density that contrasts with its loose fall. Seen alongside McFadden’s salmon printed ensemble, it shows how the impression of cascading cloth can emerge through both surface treatment and the arrangement of separate pieces.",
-    "modelWithoutJacket": "/models/2012.08.026abcde-nojacket.glb"
+    "modelWithoutJacket": "/models/2012.08.026abcde-nojacket.glb",
+    "title": "Pink pleated and beaded silk ensemble",
+    "question": "What changes in the silhouette when you imagine removing the outer coat?",
+    "designer": "Patricia Lester",
+    "origin": "Wales, Great Britain",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 7,
+      "makerColumn": "J",
+      "makerEntry": "Patricia Lester, place of origin Wales (Great Britain)",
+      "donorColumn": "I",
+      "donorEntry": "McNamara, Ollie"
+    }
   },
   "1999.27.006a-d": {
     "description": "The crinkled surface breaks the light into small, uneven lines, giving this pink dress a sense of movement within a simple outline. Its cord introduces another scale of folding: a broad loop, knots, and hanging ends against the finer texture of the cloth. In Cascade, this relationship makes fastening part of the visual composition. The cord organizes the falling fabric while becoming a suspended form of its own. The catalog description questions the identification of the fabric as silk.",
-    "material": "Crinkle silk (identification unconfirmed)"
+    "material": "Crinkle silk (identification unconfirmed)",
+    "title": "Pink crinkled dinner dress with cord belt",
+    "question": "Where does your eye pause as it follows the cord across the crinkled surface?",
+    "designer": "Pierre Labiche – Eleanor Keshan",
+    "origin": "Los Angeles",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 5,
+      "makerColumn": "J",
+      "makerEntry": "Pierre Labiche - Eleanor Keshan - Los Angeles",
+      "donorColumn": "I",
+      "donorEntry": "Cyran, Helen"
+    }
   },
   "2012.08.019ab": {
-    "description": "This blouse and skirt carry the eye through a continuous salmon-and-pink pattern. Gathers at the neckline and sleeves give the fabric room to fall, while the waist marks the meeting of the two pieces. Beside McFadden’s more heavily textured pink ensemble, the outfit brings a different kind of movement into Cascade. Pattern crosses the folds, making their changing directions visible and showing how a relatively loose construction can still organize the body into distinct areas of fullness and restraint."
+    "description": "This blouse and skirt carry the eye through a continuous salmon-and-pink pattern. Gathers at the neckline and sleeves give the fabric room to fall, while the waist marks the meeting of the two pieces. Beside Patricia Lester’s more heavily textured pink ensemble, the outfit brings a different kind of movement into Cascade. Pattern crosses the folds, making their changing directions visible and showing how a relatively loose construction can still organize the body into distinct areas of fullness and restraint.",
+    "title": "Salmon-and-pink printed silk blouse and skirt",
+    "question": "How does the printed pattern change as it crosses a fold?",
+    "designer": "Mary McFadden",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 6,
+      "makerColumn": "J",
+      "makerEntry": "Mary McFadden",
+      "donorColumn": "I",
+      "donorEntry": "McNamara, Ollie"
+    }
   },
   "1999.27.004ab": {
-    "description": "A line of covered buttons and a gathered waist give this long velvet dress a clear center. Against that order, the cord belt and tassels direct the eye outward and down. The soft surface of the velvet makes the heavier cord especially distinct. Placed in Cascade, the dress invites attention to how small points of gathering organize a much larger fall of cloth. The belt is both a fastening and a visible expression of hanging weight."
+    "description": "A line of covered buttons and a gathered waist give this long velvet dress a clear center. Against that order, the cord belt and tassels direct the eye outward and down. The soft surface of the velvet makes the heavier cord especially distinct. Placed in Cascade, the dress invites attention to how small points of gathering organize a much larger fall of cloth. The belt is both a fastening and a visible expression of hanging weight.",
+    "title": "Pink silk velvet dress with tasselled cord belt",
+    "question": "How do the hanging tassels change your impression of the dress’s weight?",
+    "designer": "Giorgio Beverly Hills",
+    "wornBy": "Helen Cyran",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 4,
+      "makerColumn": "J",
+      "makerEntry": "Giorgio Beverly Hills, used by donor",
+      "donorColumn": "I",
+      "donorEntry": "Cyran, Helen"
+    }
   },
   "915": {
-    "description": "The stole extends the line of this ice-blue evening ensemble beyond the outline of the gown. Its passage around the neck and down the back makes drapery a way of occupying space, as well as covering the body. A jeweled fastening concentrates attention near the face and waist, while the long skirt draws it toward the floor. The collection record includes a belt and slippers alongside the gown and stole; together, these coordinated parts give the flowing fabric a deliberate, composed form."
+    "description": "The stole extends the line of this ice-blue evening ensemble beyond the outline of the gown. Its passage around the neck and down the back makes drapery a way of occupying space, as well as covering the body. A jeweled fastening concentrates attention near the face and waist, while the long skirt draws it toward the floor. The collection record includes a belt and slippers alongside the gown and stole; together, these coordinated parts give the flowing fabric a deliberate, composed form.",
+    "title": "Ice-blue satin ball gown, stole, belt, and slippers",
+    "question": "What path do you imagine the stole tracing as its wearer turns?",
+    "designer": "Arnold Constable",
+    "origin": "New York",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 3,
+      "makerColumn": "J",
+      "makerEntry": "Arnold Constable, place of origin New York",
+      "donorColumn": "I",
+      "donorEntry": "Eleanor (Mrs. Franklin Delano) Roosevelt"
+    }
   },
   "2026.06.177ab": {
-    "description": "Gathered chiffon and an openwork wooden-bead cardigan give this ensemble two contrasting ways of falling around the body. The chiffon opens into soft folds; the beads form a flexible network whose repeated units remain visible. Their meeting makes the role of material especially clear within Cascade. A similar downward movement can be built from a continuous textile or assembled from many small, connected pieces. The beaded bodice and narrow waist connect these surfaces before the skirt releases into fuller folds."
+    "description": "Gathered chiffon and an openwork wooden-bead cardigan give this ensemble two contrasting ways of falling around the body. The chiffon opens into soft folds; the beads form a flexible network whose repeated units remain visible. Their meeting makes the role of material especially clear within Cascade. A similar downward movement can be built from a continuous textile or assembled from many small, connected pieces. The beaded bodice and narrow waist connect these surfaces before the skirt releases into fuller folds.",
+    "title": "Off-white chiffon dress and wooden-bead cardigan",
+    "question": "How might the wooden beads and chiffon move differently on the same body?",
+    "designer": "Ralph Rucci",
+    "origin": "New York",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 8,
+      "makerColumn": "J",
+      "makerEntry": "Ralph Rucci New York",
+      "donorColumn": "I",
+      "donorEntry": "Anonymous"
+    }
   },
   "2026.06.302": {
-    "description": "Beaded floral clusters interrupt the light surface of this ivory chiffon gown. Around the waist, a knotted cord gathers the fabric before it opens into overlapping lengths, with an irregular fringe marking the edge of the upper layer. In Cascade, the gown connects falling cloth with hanging ornament. The eye follows both the broad descent of the skirt and the smaller drops of its embellishment, revealing how a layered surface can suggest movement at several scales at once."
+    "description": "Beaded floral clusters interrupt the light surface of this ivory chiffon gown. Around the waist, a knotted cord gathers the fabric before it opens into overlapping lengths, with an irregular fringe marking the edge of the upper layer. In Cascade, the gown connects falling cloth with hanging ornament. The eye follows both the broad descent of the skirt and the smaller drops of its embellishment, revealing how a layered surface can suggest movement at several scales at once.",
+    "title": "Ivory beaded “Lily of the Valley” gown",
+    "question": "What do you notice first in the hanging ornament: individual flowers or a flowing surface?",
+    "designer": "Ralph Rucci",
+    "origin": "New York",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 9,
+      "makerColumn": "J",
+      "makerEntry": "Ralph Rucci New York",
+      "donorColumn": "I",
+      "donorEntry": "Anonymous"
+    }
   },
   "2002.05.084 + 2002.05.083": {
-    "description": "White pleats form a vertical passage through this black-and-white ensemble. The dark sleeves and side panels give that pale center a firm boundary, while the skirt extends it toward the floor. In Contrapposto, the pairing offers a comparatively ordered arrangement against which the neighboring garments’ uneven necklines and draped layers can be read. The body’s apparent balance is shaped by contrast as well as cut: dark and light areas direct attention to the center, even though the outfit is made from separate pieces."
+    "description": "White pleats form a vertical passage through this black-and-white ensemble. The dark sleeves and side panels give that pale center a firm boundary, while the skirt extends it toward the floor. In Contrapposto, the pairing offers a comparatively ordered arrangement against which the neighboring garments’ uneven necklines and draped layers can be read. The body’s apparent balance is shaped by contrast as well as cut: dark and light areas direct attention to the center, even though the outfit is made from separate pieces.",
+    "title": "Black-and-white pleated top and white skirt",
+    "question": "How do the dark and light areas shape your sense of the body’s balance?",
+    "designer": "Mary McFadden",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 10,
+      "makerColumn": "J",
+      "makerEntry": "Mary McFadden",
+      "donorColumn": "I",
+      "donorEntry": "Schefer, Dorothy"
+    }
   },
   "2026.06.249ab": {
-    "description": "The white beaded sweater draws a broad, light shape across the narrow black satin dress. Its draped edges redirect the eye away from the dress’s downward line and toward the shoulders and arms. This contrast gives the ensemble its place in Contrapposto: balance emerges through the relationship between two differently proportioned layers. The dress follows the body, while the sweater changes the space around it. Seen together, they show how an added garment can alter the visual stance of an entire outfit."
+    "description": "The white beaded sweater draws a broad, light shape across the narrow black satin dress. Its draped edges redirect the eye away from the dress’s downward line and toward the shoulders and arms. This contrast gives the ensemble its place in Contrapposto: balance emerges through the relationship between two differently proportioned layers. The dress follows the body, while the sweater changes the space around it. Seen together, they show how an added garment can alter the visual stance of an entire outfit.",
+    "title": "Black satin slip dress and white bugle-beaded sweater",
+    "question": "How does the broad white sweater change the apparent proportions of the dress beneath it?",
+    "designer": "Ralph Rucci",
+    "origin": "New York",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 12,
+      "makerColumn": "J",
+      "makerEntry": "Ralph Rucci New York",
+      "donorColumn": "I",
+      "donorEntry": "Anonymous"
+    }
   },
   "2002.05.090": {
-    "description": "A single shoulder strap gives this black dress an uneven starting point. Below it, closely spaced pleats restore a strong vertical rhythm, setting the diagonal neckline against the long fall of the skirt. The contrast makes the dress especially revealing within Contrapposto. Asymmetry need not extend across the whole garment to change how the body appears to stand. One shift at the shoulder is enough to redirect the eye and lend a sense of movement to an otherwise restrained silhouette."
+    "description": "A single shoulder strap gives this black dress an uneven starting point. Below it, closely spaced pleats restore a strong vertical rhythm, setting the diagonal neckline against the long fall of the skirt. The contrast makes the dress especially revealing within Contrapposto. Asymmetry need not extend across the whole garment to change how the body appears to stand. One shift at the shoulder is enough to redirect the eye and lend a sense of movement to an otherwise restrained silhouette.",
+    "title": "Black one-shoulder pleated evening dress",
+    "question": "How does the single shoulder strap affect the way you imagine the wearer standing?",
+    "designer": "Mary McFadden",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 11,
+      "makerColumn": "J",
+      "makerEntry": "Mary McFadden",
+      "donorColumn": "I",
+      "donorEntry": "Schefer, Dorothy"
+    }
   },
   "2021.12.001": {
-    "description": "Fine pleats allow this Delphos gown to suggest a column without fixing the body into a rigid shape. The short upper layer repeats the fall of the longer skirt, creating a rhythm within the continuous blue-green silk. Fortuny’s reference to ancient Greek dress is expressed through the behavior of the textile as well as its outline. In Fluting, the gown makes an important distinction visible: the appearance of vertical order can depend on cloth that remains responsive to the body and its movement."
+    "description": "Fine pleats allow this Delphos gown to suggest a column without fixing the body into a rigid shape. The short upper layer repeats the fall of the longer skirt, creating a rhythm within the continuous blue-green silk. Fortuny’s reference to ancient Greek dress is expressed through the behavior of the textile as well as its outline. In Fluting, the gown makes an important distinction visible: the appearance of vertical order can depend on cloth that remains responsive to the body and its movement.",
+    "title": "Blue-green pleated silk Delphos gown",
+    "question": "What might happen to these narrow folds when the wearer takes a step?",
+    "designer": "Henriette Negrin for Mariano Fortuny",
+    "origin": "Venice, Italy",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 15,
+      "makerColumn": "J",
+      "makerEntry": "Henriette Negrin for Mariano Fortuny, place of origin Venice, Italy",
+      "donorColumn": "I",
+      "donorEntry": "White, Olivia"
+    }
   },
   "2012.08.027ab": {
-    "description": "The open coat frames a long aqua gown, repeating its downward lines while giving the ensemble a second outer edge. Crushed and pleated silk catches light unevenly, so the columnar effect is interrupted by small changes across the surface. In Fluting, the outfit shows how layering can amplify a vertical rhythm without making it uniform. The coat and dress share a color and texture, yet the gap between them introduces depth and makes their separate falls of fabric visible."
+    "description": "The open coat frames a long aqua gown, repeating its downward lines while giving the ensemble a second outer edge. Crushed and pleated silk catches light unevenly, so the columnar effect is interrupted by small changes across the surface. In Fluting, the outfit shows how layering can amplify a vertical rhythm without making it uniform. The coat and dress share a color and texture, yet the gap between them introduces depth and makes their separate falls of fabric visible.",
+    "title": "Aqua pleated and beaded silk gown and overcoat",
+    "question": "Where can you distinguish a fold from a line of beading, and where do they seem to merge?",
+    "designer": "Mary McFadden",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 14,
+      "makerColumn": "J",
+      "makerEntry": "Mary McFadden",
+      "donorColumn": "I",
+      "donorEntry": "McNamara, Ollie"
+    }
   },
   "2026.06.301": {
-    "description": "Rows of suspended beads give this dress a vertical rhythm that can be read alongside the pleated textiles in Fluting. Here, the lines are attached to a relatively simple silk ground. Their changing density leaves more of that ground visible around the waist and creates a heavier-looking border near the hem. The comparison draws attention to how similar visual effects can arise from different constructions: folds organize a continuous cloth, while fringe creates lines from individual hanging elements."
+    "description": "Rows of suspended beads give this dress a vertical rhythm that can be read alongside the pleated textiles in Fluting. Here, the lines are attached to a relatively simple silk ground. Their changing density leaves more of that ground visible around the waist and creates a heavier-looking border near the hem. The comparison draws attention to how similar visual effects can arise from different constructions: folds organize a continuous cloth, while fringe creates lines from individual hanging elements.",
+    "title": "Ivory rain-effect beaded fringe dress",
+    "question": "What makes these hanging strands resemble folds of cloth?",
+    "designer": "Ralph Rucci",
+    "origin": "New York",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 16,
+      "makerColumn": "J",
+      "makerEntry": "Ralph Rucci New York",
+      "donorColumn": "I",
+      "donorEntry": "Anonymous"
+    }
   },
   "2002.05.026": {
-    "description": "The pleats in this aqua gown change direction as they cross the body. Diagonal bands shape the bodice and waist before giving way to the skirt’s long vertical lines. Retained as an alternate study for Fluting, the gown shows how one repeated textile structure can produce both a columnar fall and an impression of wrapping. Its relationship to classical drapery lies in this interplay of direction and gathered cloth. The collection record’s identification of the fabric as polyester charmeuse remains unconfirmed."
+    "description": "The pleats in this aqua gown change direction as they cross the body. Diagonal bands shape the bodice and waist before giving way to the skirt’s long vertical lines. Retained as an alternate study for Fluting, the gown shows how one repeated textile structure can produce both a columnar fall and an impression of wrapping. Its relationship to classical drapery lies in this interplay of direction and gathered cloth. The collection record’s identification of the fabric as polyester charmeuse remains unconfirmed.",
+    "title": "Aqua pleated evening gown",
+    "question": "How does the change from diagonal to vertical pleats guide your eye around the body?",
+    "designer": "Mary McFadden",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 13,
+      "makerColumn": "J",
+      "makerEntry": "Mary McFadden",
+      "donorColumn": "I",
+      "donorEntry": "Schefer, Dorothy"
+    }
   },
   "2002.08.005": {
-    "description": "A chiffon sash passes across the bodice and gathers at a cluster of flowers near one shoulder. That concentration of fabric and ornament gives the otherwise slender pink dress an uneven emphasis. In Mantled, the sash invites attention to the point at which a draped addition begins to reshape the whole garment. Its path around the upper body produces the appearance of wrapping, while the flowers make the place where the fabric gathers into a conspicuous part of the design."
+    "description": "A chiffon sash passes across the bodice and gathers at a cluster of flowers near one shoulder. That concentration of fabric and ornament gives the otherwise slender pink dress an uneven emphasis. In Mantled, the sash invites attention to the point at which a draped addition begins to reshape the whole garment. Its path around the upper body produces the appearance of wrapping, while the flowers make the place where the fabric gathers into a conspicuous part of the design.",
+    "title": "Pink chiffon evening dress with floral sash",
+    "question": "How does the cluster of flowers change the way you follow the draped sash?",
+    "designer": "Suzanne Caygill",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 17,
+      "makerColumn": "J",
+      "makerEntry": "Suzanne Caygill",
+      "donorColumn": "I",
+      "donorEntry": "Caygill, Suzanne"
+    }
   },
   "2002.08.015": {
-    "description": "The scarf-like chiffon layer adds an outer contour to this cream evening dress. It passes across the upper body and falls at the sides, allowing the beaded bodice and narrow underlying silhouette to remain visible. Within Mantled, the ensemble explores how a small addition of cloth can change the relationship between dress and wearer. The layer frames the shoulders, interrupts the dress’s vertical line, and gives its edges a looseness that contrasts with the more closely defined bodice."
+    "description": "The scarf-like chiffon layer adds an outer contour to this cream evening dress. It passes across the upper body and falls at the sides, allowing the beaded bodice and narrow underlying silhouette to remain visible. Within Mantled, the ensemble explores how a small addition of cloth can change the relationship between dress and wearer. The layer frames the shoulders, interrupts the dress’s vertical line, and gives its edges a looseness that contrasts with the more closely defined bodice.",
+    "title": "Cream chiffon evening dress with beading",
+    "question": "What does the sheer outer layer reveal or obscure about the shape beneath it?",
+    "designer": "Suzanne Caygill",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 19,
+      "makerColumn": "J",
+      "makerEntry": "Suzanne Caygill",
+      "donorColumn": "I",
+      "donorEntry": "Caygill, Suzanne"
+    }
   },
   "2002.08.016": {
     "description": "A broad panel falls from the shoulders along one side of this yellow-and-brown dress. Its length repeats the line of the gown, while its uneven placement gives that line a second direction. The arrangement brings the idea of the mantle into the garment itself. In this case, compare the panel with the scarves and overlays nearby: each adds fabric around the body, but the point of attachment determines where fullness gathers and how the silhouette opens into the surrounding space.",
     "date": "1974–1979",
-    "recordNote": null
+    "recordNote": null,
+    "title": "Yellow-and-brown chiffon evening dress",
+    "question": "How does the long shoulder panel change the space the dress seems to occupy?",
+    "designer": "Suzanne Caygill",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 20,
+      "makerColumn": "J",
+      "makerEntry": "Suzanne Caygill",
+      "donorColumn": "I",
+      "donorEntry": "Caygill, Suzanne"
+    }
   },
   "2002.08.006": {
     "description": "A sweetheart neckline shapes the underdress, while the chiffon layer above it opens into a deep V. Their different contours make the relationship between the two layers visible. Broad panels fall from the shoulders and trail beyond the underlying dress, giving a close silhouette a more expansive outer form. In Mantled, this combination shows how transparency can preserve the outline of the body while extending its apparent reach. The effect depends on seeing one garment through another.",
-    "recordNote": null
+    "recordNote": null,
+    "title": "Light brown evening dress with chiffon wrap",
+    "question": "What do the two different necklines let you see about the relationship between the layers?",
+    "designer": "Suzanne Caygill",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 18,
+      "makerColumn": "J",
+      "makerEntry": "Suzanne Caygill",
+      "donorColumn": "I",
+      "donorEntry": "Caygill, Suzanne"
+    }
   },
   "2026.06.143": {
-    "description": "Curved folds organize the bodice before opening into a wide, deeply fluted train. Bands and tasselled ends gather parts of the jersey, making the handling of the fabric visible within the finished gown. In Mantled, the dress expands the idea of wrapping beyond a separate scarf or cape. Drapery becomes part of the gown’s structure, connecting the fitted upper body to a much larger spread of cloth on the ground. The change in scale gives the restrained neckline a strikingly expansive counterpart."
+    "description": "Curved folds organize the bodice before opening into a wide, deeply fluted train. Bands and tasselled ends gather parts of the jersey, making the handling of the fabric visible within the finished gown. In Mantled, the dress expands the idea of wrapping beyond a separate scarf or cape. Drapery becomes part of the gown’s structure, connecting the fitted upper body to a much larger spread of cloth on the ground. The change in scale gives the restrained neckline a strikingly expansive counterpart.",
+    "title": "Stone-colored fluted jersey gown with train",
+    "question": "How does the spreading train change your sense of the body’s scale?",
+    "designer": "Ralph Rucci",
+    "origin": "New York",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 21,
+      "makerColumn": "J",
+      "makerEntry": "Ralph Rucci New York",
+      "donorColumn": "I",
+      "donorEntry": "Anonymous"
+    }
   },
   "322": {
-    "description": "Gold-thread borders and tassels give this loose silk wrap a clearly marked edge. The ornamental frame remains legible as the cloth folds around the body, turning a broad textile surface into a shaped garment. In Meander, the wrap offers a starting point for following the border as an organizing device. Compare its perimeter with the decorated necklines and hems nearby: a repeated pattern can define where a garment ends, direct the eye around the wearer, and give structure to an otherwise open expanse of cloth."
+    "description": "Gold-thread borders and tassels give this loose silk wrap a clearly marked edge. The ornamental frame remains legible as the cloth folds around the body, turning a broad textile surface into a shaped garment. In Meander, the wrap offers a starting point for following the border as an organizing device. Compare its perimeter with the decorated necklines and hems nearby: a repeated pattern can define where a garment ends, direct the eye around the wearer, and give structure to an otherwise open expanse of cloth.",
+    "title": "Raw silk wrap with gold-thread borders",
+    "question": "How do the decorated edges give shape to this loose wrap?",
+    "origin": "Ottoman (as recorded)",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 22,
+      "makerColumn": "J",
+      "makerEntry": "Place of origin Ottoman",
+      "donorColumn": "I",
+      "donorEntry": "Langdon, Charles Jervis (Charles Jervis Landon Estate)"
+    }
   },
   "2002.09.066": {
-    "description": "Black and orange motifs become denser toward the hem of this white silk dress. The straight outline gives them room to establish a rhythm, while the lower pleats allow the printed surface to open and close. Within Meander, the dress shows how repetition can direct the eye through a garment. Pattern takes on some of the work of shaping: the stronger border anchors the lower edge, while the more widely spaced marks above create a contrasting sense of openness."
+    "description": "Black and orange motifs become denser toward the hem of this white silk dress. The straight outline gives them room to establish a rhythm, while the lower pleats allow the printed surface to open and close. Within Meander, the dress shows how repetition can direct the eye through a garment. Pattern takes on some of the work of shaping: the stronger border anchors the lower edge, while the more widely spaced marks above create a contrasting sense of openness.",
+    "title": "White silk dress with orange-and-black print",
+    "question": "Which printed motif catches your eye first, and where does it lead you next?",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 24,
+      "makerColumn": "J",
+      "makerEntry": null,
+      "donorColumn": "I",
+      "donorEntry": "Brown, Elizabeth Schmeck"
+    }
   },
   "1995.07.009": {
-    "description": "Dense beading frames the shoulders and returns at the waist, dividing the pale satin dress into distinct zones. The largely unornamented skirt makes these bands especially prominent. Seen in Meander, the garment invites comparison between a textile border and a piece of jewelry: both can frame the upper body and concentrate attention around an opening. Here, ornament also establishes proportion, making the relationship between decorated and undecorated areas central to how the dress is read."
+    "description": "Dense beading frames the shoulders and returns at the waist, dividing the pale satin dress into distinct zones. The largely unornamented skirt makes these bands especially prominent. Seen in Meander, the garment invites comparison between a textile border and a piece of jewelry: both can frame the upper body and concentrate attention around an opening. Here, ornament also establishes proportion, making the relationship between decorated and undecorated areas central to how the dress is read.",
+    "title": "Beige satin dress with beaded borders",
+    "question": "How do the beaded bands divide the dress into different proportions?",
+    "designer": "Givenchy",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 23,
+      "makerColumn": "J",
+      "makerEntry": "Givenchy",
+      "donorColumn": "I",
+      "donorEntry": "Eissner, Judith"
+    }
   },
   "2015.08.001": {
-    "description": "Geometric beadwork travels down this dress before gathering into larger forms and a deep fringe. The lower edge is defined by hanging ornament as much as by the chiffon beneath it. In Meander, this changing rhythm shows what happens when a border becomes mobile. Repeated motifs organize the surface, but their loose ends give that order room to shift with the wearer. The dress brings the fixed pattern of embellishment into conversation with the less predictable movement of the body."
+    "description": "Geometric beadwork travels down this dress before gathering into larger forms and a deep fringe. The lower edge is defined by hanging ornament as much as by the chiffon beneath it. In Meander, this changing rhythm shows what happens when a border becomes mobile. Repeated motifs organize the surface, but their loose ends give that order room to shift with the wearer. The dress brings the fixed pattern of embellishment into conversation with the less predictable movement of the body.",
+    "title": "Beige chiffon dress with geometric beading and fringe",
+    "question": "Where does the pattern seem to become movement?",
+    "wornBy": "Edith Esther Chisholm",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 25,
+      "makerColumn": "J",
+      "makerEntry": "used by Edith Esther Chisholm",
+      "donorColumn": "I",
+      "donorEntry": "McAdams, Ann"
+    }
   },
   "2024.08.007abc": {
-    "description": "Beaded bands frame the neckline and lead down the front of this wedding gown, while hanging strands introduce a looser rhythm. The coordinating cape adds another boundary around the shoulders and body. Within Meander, the ensemble shows how ornament can move between the roles of border, surface pattern, and suspended jewelry. These elements organize the ivory garment without relying on strong color contrasts, making changes in texture and the direction of reflected light central to its effect."
+    "description": "Beaded bands frame the neckline and lead down the front of this wedding gown, while hanging strands introduce a looser rhythm. The coordinating cape adds another boundary around the shoulders and body. Within Meander, the ensemble shows how ornament can move between the roles of border, surface pattern, and suspended jewelry. These elements organize the ivory garment without relying on strong color contrasts, making changes in texture and the direction of reflected light central to its effect.",
+    "title": "Ivory beaded wedding gown and cape",
+    "question": "Where does the ornament read as part of the garment, and where does it resemble jewelry?",
+    "wornBy": "Ruth Brown",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 26,
+      "makerColumn": "J",
+      "makerEntry": "made and designed by donor's father Hugh S. Byfield\nused by donor's friend Ruth Brown",
+      "donorColumn": "I",
+      "donorEntry": "Byfield, Judith"
+    }
   },
   "2015.30.016": {
     "description": "Metal strips worked into a net ground create the reflective pattern of this Assuit dress. The contrast between an open textile and dense ornament makes its construction part of what the viewer sees. In Gilded, the dress invites attention to the material work behind a luminous surface. The repeated motifs depend on many small pieces of metal, bringing texture and weight to the cloth as well as shine. Its shimmer is inseparable from the technique that produces it.",
-    "material": "Net with metal strips (Assuit technique)"
+    "material": "Net with metal strips (Assuit technique)",
+    "title": "Black Assuit dress with metal-strip ornament",
+    "question": "What do you notice about the spaces between the reflective metal motifs?",
+    "origin": "Turkey (as recorded)",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 30,
+      "makerColumn": "J",
+      "makerEntry": "Place of origin Turkey",
+      "donorColumn": "I",
+      "donorEntry": "Jirousek, Charlotte"
+    }
   },
   "883": {
-    "description": "Gold-colored beading traces the neckline and gathers into elaborate shapes across the skirt of this black satin dress. Against the dark ground, the ornament establishes a second outline, culminating in rounded tabs at the hem. In Gilded, the dress shows how a reflective surface can direct attention independently of the garment’s cut. Light makes the decorated areas advance visually, while the black satin between them gives each motif room to be seen."
+    "description": "Gold-colored beading traces the neckline and gathers into elaborate shapes across the skirt of this black satin dress. Against the dark ground, the ornament establishes a second outline, culminating in rounded tabs at the hem. In Gilded, the dress shows how a reflective surface can direct attention independently of the garment’s cut. Light makes the decorated areas advance visually, while the black satin between them gives each motif room to be seen.",
+    "title": "Black satin dress with gold-colored beading",
+    "question": "How does the dark satin change the way you see the gold-colored motifs?",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 27,
+      "makerColumn": "J",
+      "makerEntry": null,
+      "donorColumn": "I",
+      "donorEntry": "Unknown"
+    }
   },
   "1999.17.001": {
-    "description": "Bright trim and metallic ornament map the neckline, front opening, and hem of this dark silk dress. The decorated borders make the garment’s edges more conspicuous than its loose outline alone would suggest. Within Gilded, the dress broadens the comparison beyond gold-colored surfaces. Color, appliqué, and metallic reflection work together to create contrast, concentrating the eye on selected parts of the body. The effect rests on the relationship between the ornament and the dark cloth that surrounds it."
+    "description": "Bright trim and metallic ornament map the neckline, front opening, and hem of this dark silk dress. The decorated borders make the garment’s edges more conspicuous than its loose outline alone would suggest. Within Gilded, the dress broadens the comparison beyond gold-colored surfaces. Color, appliqué, and metallic reflection work together to create contrast, concentrating the eye on selected parts of the body. The effect rests on the relationship between the ornament and the dark cloth that surrounds it.",
+    "title": "Black silk dress with blue trim and metallic ornament",
+    "question": "How do the bright borders guide your eye across the dark silk?",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 29,
+      "makerColumn": "J",
+      "makerEntry": null,
+      "donorColumn": "I",
+      "donorEntry": "Gatti, Anne Powell"
+    }
   },
   "2017.47.003": {
-    "description": "Curving bands of blue, purple, and iridescent beads descend across the upper part of this dress like layered necklaces. Their shifting reflections give the dark surface a depth that is difficult to reduce to a single color. In Gilded, the garment demonstrates how luminosity can be built through beads rather than a continuous metallic textile. The repeated curves frame the torso, while the quieter skirt allows their pattern and changing light to remain the focus."
+    "description": "Curving bands of blue, purple, and iridescent beads descend across the upper part of this dress like layered necklaces. Their shifting reflections give the dark surface a depth that is difficult to reduce to a single color. In Gilded, the garment demonstrates how luminosity can be built through beads rather than a continuous metallic textile. The repeated curves frame the torso, while the quieter skirt allows their pattern and changing light to remain the focus.",
+    "title": "Black dress with blue, purple, and iridescent beading",
+    "question": "What does the arrangement of curved beadwork remind you of?",
+    "wornBy": "The donor’s mother and grandmother",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 31,
+      "makerColumn": "J",
+      "makerEntry": "used by donor's mother and grandmother",
+      "donorColumn": "I",
+      "donorEntry": "Bramhall, Margaret"
+    }
   },
   "1997.17.017ab": {
     "description": "A sheer pullover woven with metallic thread lies over a darker, closer-fitting dress. Light catches the open upper layer while the garment beneath supplies depth and contrast. Within Gilded, this pairing makes shimmer a relationship between surfaces. The same loose cloth can conceal and reveal as it gathers, so its reflective pattern changes with the folds. Compared with the densely beaded dresses nearby, the ensemble achieves a luminous effect through a more open arrangement of material.",
-    "material": "Rayon knit dress; gauze pullover with metallic thread"
+    "material": "Rayon knit dress; gauze pullover with metallic thread",
+    "title": "Dark strapless dress with sheer metallic pullover",
+    "question": "How does seeing one layer through another change the luminous effect?",
+    "designer": "Julio",
+    "catalogSource": {
+      "file": "Exhibition Tracking List Updated.xlsx",
+      "sheet": "Labels",
+      "row": 28,
+      "makerColumn": "J",
+      "makerEntry": "Julio",
+      "donorColumn": "I",
+      "donorEntry": "Rowan, John"
+    }
+  },
+  "loan-issey-miyake": {
+    "title": "Issey Miyake dress · loan details forthcoming",
+    "question": "Looking at the proposed case image, how do this dress’s diagonal lines change your idea of a pleat?"
+  },
+  "loan-madame-gres": {
+    "title": "Madame Grès dress · loan details forthcoming",
+    "question": "Looking at the proposed case image, where does the gathered fabric begin to fall freely?"
   }
 }

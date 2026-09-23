@@ -61,8 +61,9 @@ export default function ObjectPage({ object }) {
       <aside className="object-info" aria-label="About this object">
         <p className="eyebrow">{object.collection} / {object.accession || 'Loan'}</p>{object.alternate && <p className="record-note">Alternate study object · retained for exploration, outside the current display sequence.</p>}<h1>{object.title}</h1><p className="attribution">{object.designer}<span>{object.date}</span></p>
         <p className="credit">{object.credit}<br/><span>{object.footer}</span></p>
+        <section className="looking-question" aria-label="A question to consider"><p className="eyebrow">Pause and look</p><h2>{object.question}</h2></section>
         <p className="description">{object.description}</p>
-        <dl className="facts"><div><dt>Material</dt><dd>{object.material}</dd></div><div><dt>{object.alternate ? 'Related case' : 'Display'}</dt><dd>{object.collection}</dd></div></dl>
+        <dl className="facts"><div><dt>Material</dt><dd>{object.material}</dd></div>{object.origin && <div><dt>Recorded origin</dt><dd>{object.origin}</dd></div>}{object.wornBy && <div><dt>Worn by</dt><dd>{object.wornBy}</dd></div>}<div><dt>{object.alternate ? 'Related case' : 'Display'}</dt><dd>{object.collection}</dd></div></dl>
         {object.hotspots.length > 0 && <>
         <div id="look-closer" className="details-header"><h2>Look closer</h2>{object.hotspots.length > 0 && <span>{object.hotspots.length} details</span>}</div>
         <p className="details-instruction">{object.image ? object.note : 'Object details will be added as they become available.'}</p>

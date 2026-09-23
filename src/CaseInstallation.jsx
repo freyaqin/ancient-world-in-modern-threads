@@ -31,7 +31,7 @@ export default function CaseInstallation({ installation, children }) {
           <img src={installation.image} alt={installation.alt} width={installation.width} height={installation.height} />
           {installation.markers.map((marker,index) => {
             const item = getObject(marker.id);
-            return <a key={marker.id} className="installation-marker" href={objectUrl(marker.id)} style={{left:`${marker.x}%`,top:`${marker.y}%`}} aria-label={`${index+1}. ${item.title}, ${item.id}`}>
+            return <a key={marker.id} className="installation-marker" href={objectUrl(marker.id)} style={{left:`${marker.x}%`,top:`${marker.y}%`}} aria-label={`Garment ${index+1}: ${item.title}`}>
               <span className="marker-number" aria-hidden="true">{index+1}</span><span className="marker-title" aria-hidden="true">{item.title}</span>
             </a>;
           })}
