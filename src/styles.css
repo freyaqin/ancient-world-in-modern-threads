@@ -31,3 +31,16 @@
 .looking-question { margin: 1.6rem 0 1.2rem; padding: 1.1rem 1.2rem; border-left: 2px solid var(--accent); background: #10568108; }
 .looking-question .eyebrow { margin: 0 0 .6rem; color: var(--accent); }
 .looking-question h2 { margin: 0; font-family: Georgia, serif; font-size: clamp(1.15rem, 1.6vw, 1.4rem); font-weight: 400; line-height: 1.5; color: var(--ink); }
+
+.object-response { margin-top: 1rem; }
+.object-response .response-notice { font-size: .85rem; line-height: 1.6; color: var(--ink); margin: 0 0 1rem; }
+.object-response label { display: block; font-size: .9rem; font-weight: 600; margin-bottom: .5rem; }
+.object-response label span { font-weight: 400; }
+.object-response textarea { display: block; box-sizing: border-box; width: 100%; min-height: 120px; padding: .8rem; resize: vertical; border: 1px solid #947d75; border-radius: 3px; background: var(--paper); color: var(--ink); font: inherit; font-size: 16px; line-height: 1.6; }
+.object-response textarea::placeholder { color: #755b58; opacity: 1; }
+.object-response textarea:focus-visible, .response-actions button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.object-response .response-count { margin: .4rem 0 .8rem; font-size: .75rem; text-align: right; }
+.response-actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.response-actions button { min-height: 44px; padding: .65rem .85rem; border: 1px solid var(--accent); border-radius: 3px; background: var(--accent); color: #fff; font: inherit; font-size: .85rem; }
+.response-actions .response-clear { background: transparent; color: var(--ink); border-color: #947d75; }
+.response-actions button:disabled { background: #e7e0d8; border-color: #c2b4aa; color: #68544e; cursor: not-allowed; }
