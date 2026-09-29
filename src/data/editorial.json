@@ -190,10 +190,10 @@
     }
   },
   "2012.08.027ab": {
-    "description": "The open coat frames a long aqua gown, repeating its downward lines while giving the ensemble a second outer edge. Crushed and pleated silk catches light unevenly, so the columnar effect is interrupted by small changes across the surface. In Fluting, the outfit shows how layering can amplify a vertical rhythm without making it uniform. The coat and dress share a color and texture, yet the gap between them introduces depth and makes their separate falls of fabric visible.",
+    "description": "In Patricia Lester’s ensemble, the open coat frames a long aqua gown, repeating its downward lines while giving the ensemble a second outer edge. Crushed and pleated silk catches light unevenly, so the columnar effect is interrupted by small changes across the surface. In Fluting, the outfit shows how layering can amplify a vertical rhythm without making it uniform. The coat and dress share a color and texture, yet the gap between them introduces depth and makes their separate falls of fabric visible.",
     "title": "Aqua pleated and beaded silk gown and overcoat",
     "question": "Where can you distinguish a fold from a line of beading, and where do they seem to merge?",
-    "designer": "Mary McFadden",
+    "designer": "Patricia Lester",
     "catalogSource": {
       "file": "Exhibition Tracking List Updated.xlsx",
       "sheet": "Labels",
@@ -202,6 +202,10 @@
       "makerEntry": "Mary McFadden",
       "donorColumn": "I",
       "donorEntry": "McNamara, Ollie"
+    },
+    "attributionCorrection": {
+      "source": "Freya Qin, September 28, 2026",
+      "note": "Patricia Lester; supersedes the Mary McFadden entry in the updated workbook."
     }
   },
   "2026.06.301": {
