@@ -44,3 +44,6 @@
 .response-actions button { min-height: 44px; padding: .65rem .85rem; border: 1px solid var(--accent); border-radius: 3px; background: var(--accent); color: #fff; font: inherit; font-size: .85rem; }
 .response-actions .response-clear { background: transparent; color: var(--ink); border-color: #947d75; }
 .response-actions button:disabled { background: #e7e0d8; border-color: #c2b4aa; color: #68544e; cursor: not-allowed; }
+
+.response-result:empty { display: none; }
+.response-result { line-height: 1.6; }
