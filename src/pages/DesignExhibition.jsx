@@ -31,6 +31,8 @@ export default function DesignExhibition() {
   const [slot, setSlot] = useState(null);
   const [notice, setNotice] = useState('');
   const trigger = useRef(null);
+  const scene = useRef(null);
+  const [exporting, setExporting] = useState(false);
   const config = designCases[activeCase]; const slots = design[activeCase];
   function updateSlots(next) { setDesign(current => ({...current, [activeCase]: next})); setNotice('Unsaved changes. Save on this device to keep your arrangement.'); }
   function openPicker(index, event) { trigger.current = event.currentTarget; setSlot(index); }
@@ -53,12 +55,21 @@ export default function DesignExhibition() {
       setDesign(next); setNotice('Your saved arrangement is loaded.');
     } catch { setNotice('The saved arrangement could not be loaded. Your current work has been kept.'); }
   }
-  function download() {
-    const selected = scope === 'single' ? {[activeCase]: slots} : design;
-    const output = {title: 'My exhibition arrangement', cases: Object.fromEntries(Object.entries(selected).map(([name, ids]) => [name, ids.map(id => id ? {id, title:getObject(id).title} : null)]))};
-    const url = URL.createObjectURL(new Blob([JSON.stringify(output, null, 2)], {type:'application/json'}));
-    const link = document.createElement('a'); link.href = url; link.download = 'my-exhibition.json'; link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
-    setNotice('Downloaded your selected arrangement.');
+  async function download() {
+    setExporting(true);
+    setNotice('Preparing your case screenshot…');
+    try {
+      const { toPng } = await import('html-to-image');
+      await Promise.all(Array.from(scene.current.querySelectorAll('img')).map(image => image.decode()));
+      const dataUrl = await toPng(scene.current, {pixelRatio: 2, backgroundColor: '#F6F3ED', filter: node => !node.classList?.contains('slot-number')});
+      const link = document.createElement('a');
+      link.href = dataUrl;
+      link.download = `my-${activeCase.toLowerCase()}-case.png`;
+      link.click();
+      setNotice(`${activeCase} screenshot downloaded as a PNG image.`);
+    } catch {
+      setNotice('The screenshot could not be created. Please wait for the images to load and try again.');
+    } finally { setExporting(false); }
   }
   return <><Breadcrumbs current="Design your own exhibition"/><main id="content" className="explore-page design-page" tabIndex="-1">
     <div className="page-heading"><p className="eyebrow">Your turn to curate</p><h1>Design your own<br/><em>exhibition.</em></h1><p>Bring garments together in a new way. Start with one case or arrange the whole exhibition. What connections will you make?</p></div>
@@ -70,18 +81,18 @@ export default function DesignExhibition() {
     <div className="section-heading"><h2>{activeCase}</h2><p>{slots.filter(Boolean).length} of {slots.length} spaces filled</p></div>
     <p className="installation-help">Select + to add a garment. Select a filled space to replace it. Photographs show your arrangement as a layout study; scale is approximate.{activeCase === 'Fluting' && ' Three spaces sit on each side of the monitor.'} On phones, swipe across the case.</p>
     <div className="design-scroller" tabIndex="0" role="region" aria-label={`${activeCase} arrangement`}>
-      <div className={`design-scene ${activeCase === 'Contrapposto' ? 'portrait' : ''}`}>
+      <div ref={scene} className={`design-scene ${activeCase === 'Contrapposto' ? 'portrait' : ''}`}>
         <img className="blank-case" src={assetPath(config.image)} alt={`Empty ${activeCase} display case`}/>
         {slotPositions(activeCase, slots.length).map((x, index) => {
           const object = getObject(slots[index]);
           return <button type="button" key={index} className={`design-slot ${object ? 'filled' : ''}`} style={{left:`${x}%`,top:`${config.top}%`,height:`${config.bottom-config.top}%`,width:activeCase === 'Contrapposto' ? '18%' : activeCase === 'Cascade' ? `${Math.min(9, 62/slots.length)}%` : '10%'}} onClick={e => openPicker(index, e)} aria-label={object ? `Replace slot ${index+1}: ${object.title}` : `Add garment to slot ${index+1}`}>
-            {object ? <>{object.image ? <img src={object.thumbnail || object.image} alt=""/> : <span className="slot-placeholder">{object.title}<small>Image forthcoming</small></span>}<span className="slot-number">{index+1}</span></> : <><span className="slot-plus" aria-hidden="true">+</span><span>Slot {index+1}</span></>}
+            {object ? <>{object.image ? <img src={object.image} alt=""/> : <span className="slot-placeholder">{object.title}<small>Image forthcoming</small></span>}<span className="slot-number">{index+1}</span></> : <><span className="slot-plus" aria-hidden="true">+</span><span>Slot {index+1}</span></>}
           </button>;
         })}
       </div>
     </div>
     <ol className="design-slot-list">{slots.map((id,index) => <li key={index}><span><strong>{index+1}.</strong> {id ? getObject(id).title : 'Empty space'}</span><div><button onClick={e => openPicker(index,e)}>{id ? 'Replace' : 'Add garment'}</button>{id && <button aria-label={`Remove ${getObject(id).title} from slot ${index+1}`} onClick={() => updateSlots(slots.map((v,i) => i === index ? null : v))}>Remove</button>}</div></li>)}</ol>
-    <div className="design-save"><p>Your layout stays in this page until you leave. You can save it on this device or download it. Nothing is sent to the researcher.</p><div className="response-actions"><button onClick={save}>Save on this device</button><button className="response-clear" onClick={load}>Load saved design</button><button className="response-clear" onClick={download}>Download arrangement</button></div><p role="status">{notice}</p></div>
+    <div className="design-save"><p>Your layout stays in this page until you leave. You can save it on this device or download a screenshot of the case shown above. Nothing is sent to the researcher.</p><div className="response-actions"><button onClick={save}>Save on this device</button><button className="response-clear" onClick={load}>Load saved design</button><button className="response-clear" onClick={download} disabled={exporting}>{exporting ? 'Preparing screenshot…' : 'Download case screenshot'}</button></div><p role="status">{notice}</p></div>
     {slot !== null && <ObjectPicker used={slots.filter((id,i) => id && i !== slot)} onChoose={choose} onClose={closePicker}/>}
   </main></>;
 }

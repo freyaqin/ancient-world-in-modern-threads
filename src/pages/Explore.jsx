@@ -52,7 +52,7 @@ export function ExhibitionMap() {
         <span className="room room-gallery">Jill Stuart<br/>Gallery</span><span className="room room-restrooms">Restrooms</span><span className="room room-office">Office</span>
         {displays.map(([name, position]) => level !== 'T' && position !== 'mantled'
           ? <div key={position} className={`plan-case plan-${position} muted`}><strong>{name}</strong></div>
-          : <a key={position} className={`plan-case plan-${position}`} href={caseUrl(name)}><strong>{name}</strong><span>{position === 'mantled' ? `Level ${level}` : 'Level T'}</span></a>)}
+          : <a key={position} className={`plan-case plan-${position}`} href={caseUrl(name)}><strong>{name}</strong>{position === 'mantled' && level !== 'T' && <span>Level {level}</span>}</a>)}
         <span className="wall-label wall-interactive">Interactive wall display</span><span className="wall-label wall-sketches">Ralph Rucci sketches</span>
       </div></div>
       <div className="map-level-legend" role="group" aria-label="Choose exhibition level"><span>View level</span><div>{['T','1','2'].map(id => <button key={id} aria-pressed={level === id} onClick={() => setLevel(id)}>Level {id}{id === 'T' ? ' · Main gallery' : ''}</button>)}</div></div>
