@@ -9,6 +9,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 export default function ModelViewer({ object }) {
   const host = useRef(null);
   const actions = useRef(null);
+  const introduced = useRef(false);
   const [status, setStatus] = useState('Loading the 3D garment…');
   const [ready, setReady] = useState(false);
   const [failed, setFailed] = useState(false);
@@ -20,6 +21,10 @@ export default function ModelViewer({ object }) {
     const container = host.current;
     const abort = new AbortController();
     let renderer, controls, model, observer, environment;
+    let animationFrame = 0;
+    const stopIntro = () => { cancelAnimationFrame(animationFrame); animationFrame = 0; };
+    container.addEventListener('pointerdown', stopIntro);
+    container.addEventListener('keydown', stopIntro);
     function disposeModel(root) {
       const geometries = new Set(), materials = new Set(), textures = new Set();
       root?.traverse(node => {
@@ -40,7 +45,7 @@ export default function ModelViewer({ object }) {
     const camera = new THREE.PerspectiveCamera(32, 1, 0.01, 100);
     const render = () => { if (!disposed && renderer) renderer.render(scene, camera); };
     const fail = () => {
-      if (!disposed) { setReady(false); setFailed(true); setStatus('The 3D view could not load. You can retry or return to the Object photograph.'); }
+      if (!disposed) { setReady(false); setFailed(true); setStatus('The 3D view could not load. You can retry or select the Photos tab.'); }
     };
     try {
       renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
@@ -59,6 +64,7 @@ export default function ModelViewer({ object }) {
       const key = new THREE.DirectionalLight(0xffffff, 2); key.position.set(3, 4, 5); scene.add(key);
       const fill = new THREE.DirectionalLight(0xffffff, 1); fill.position.set(-3, 1, -2); scene.add(fill);
       controls = new OrbitControls(camera, renderer.domElement);
+      controls.addEventListener('start', stopIntro);
       controls.enablePan = false;
       controls.enableZoom = false; // Explicit buttons avoid intercepting page scroll.
       controls.minPolarAngle = Math.PI * .15;
@@ -77,7 +83,7 @@ export default function ModelViewer({ object }) {
         relative.setLength(THREE.MathUtils.clamp(relative.length() * factor, .6, fitDistance() * 2.5));
         camera.position.copy(relative.add(controls.target)); controls.update(); render();
       };
-      actions.current = { left: () => orbit(-Math.PI / 8), right: () => orbit(Math.PI / 8), in: () => zoom(.85), out: () => zoom(1.18), reset };
+      actions.current = { left: () => { stopIntro(); orbit(-Math.PI / 8); }, right: () => { stopIntro(); orbit(Math.PI / 8); }, in: () => { stopIntro(); zoom(.85); }, out: () => { stopIntro(); zoom(1.18); }, reset: () => { stopIntro(); reset(); } };
       reset();
       observer = new ResizeObserver(() => {
         const { width, height } = container.getBoundingClientRect();
@@ -109,10 +115,24 @@ export default function ModelViewer({ object }) {
           modelWidth = size.x / size.y; modelDepth = size.z / size.y;
           reset();
           render(); setReady(true); setStatus('3D garment ready. Drag to rotate, or use the controls below.');
+          if (!introduced.current && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            introduced.current = true;
+            const started = performance.now(); const distance = fitDistance();
+            const cue = now => {
+              if (disposed) return;
+              const t = Math.min((now - started) / 1600, 1);
+              const angle = Math.sin(t * Math.PI * 2) * .16 * Math.sin(t * Math.PI);
+              camera.position.set(Math.sin(angle) * distance, 0, Math.cos(angle) * distance);
+              controls.update(); render();
+              if (t < 1) animationFrame = requestAnimationFrame(cue);
+            };
+            animationFrame = requestAnimationFrame(cue);
+          }
         } catch (error) { if (error.name !== 'AbortError') fail(); }
       })();
     } catch { fail(); }
     return () => {
+      stopIntro(); container.removeEventListener('pointerdown', stopIntro); container.removeEventListener('keydown', stopIntro);
       disposed = true; abort.abort(); observer?.disconnect(); controls?.dispose();
       disposeModel(model); environment?.dispose(); renderer?.dispose();
       renderer?.domElement.removeEventListener('webglcontextlost', fail);

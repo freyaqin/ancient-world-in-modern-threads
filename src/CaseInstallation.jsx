@@ -3,7 +3,7 @@ import { getObject } from './data/objects';
 import { objectUrl } from './data/site';
 
 export default function CaseInstallation({ installation, children }) {
-  const [mode, setMode] = useState(() => window.matchMedia('(min-width: 760px)').matches ? 'gallery' : 'grid');
+  const [mode, setMode] = useState('gallery');
   const [enlarged, setEnlarged] = useState(false);
   const scroller = useRef(null);
   function toggleSize() {

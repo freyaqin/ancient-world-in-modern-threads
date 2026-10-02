@@ -13,10 +13,10 @@ export const site = {
   researchNotice: "As part of the research associated with this exhibition, visitors’ interactions with the displays and interpretive interfaces may be observed by the curator-researcher to better understand how people engage with fashion in an exhibition setting.",
 };
 export const caseStories = {
-  Cascade: { number: '01', line: 'Cloth in motion', description: 'Follow the fall of fabric: folds gather, release, and cascade around the body.', location: 'Main gallery · west side' },
-  Contrapposto: { number: '02', line: 'The body in balance', description: 'Look at the relationship between posture, asymmetry, and the lines of a dressed figure.', location: 'Main gallery · central case' },
-  Fluting: { number: '03', line: 'One idea, many techniques', description: 'Fine pleats, vertical folds, and suspended beads give cloth a columnar rhythm. This case explores how related visual effects emerge from different materials and ways of making.', location: 'Main gallery · north side' },
-  Mantled: { number: '04', line: 'Wrapped, suspended, released', description: 'Scarves, overlays, and draped panels revisit the mantle through the gestures of wrapping and letting cloth fall.', location: 'Main gallery · east side' },
+  Cascade: { number: '01', line: 'Cloth in motion', description: 'Follow the fall of fabric: folds gather, release, and cascade around the body.', location: 'Level T · beside Jill Stuart Gallery' },
+  Contrapposto: { number: '02', line: 'The body in balance', description: 'Look at the relationship between posture, asymmetry, and the lines of a dressed figure.', location: 'Level T · central case' },
+  Fluting: { number: '03', line: 'One idea, many techniques', description: 'Fine pleats, vertical folds, and suspended beads give cloth a columnar rhythm. This case explores how related visual effects emerge from different materials and ways of making.', location: 'Level T · Jill Stuart Gallery wall' },
+  Mantled: { number: '04', line: 'Wrapped, suspended, released', description: 'Scarves, overlays, and draped panels revisit the mantle through the gestures of wrapping and letting cloth fall.', location: 'Level T · beside the restrooms' },
   Meander: { number: '05', line: 'Patterns that travel', description: 'Borders and repeating geometric forms move across the Mediterranean and into modern dress, accumulating new meanings along the way.', location: 'Level 1' },
   Gilded: { number: '06', line: 'Cloth becomes luminous', description: 'Metal, beads, and shimmering surfaces transform the dressed body through reflected light.', location: 'Level 2' },
   'Egyptian Textiles': { number: '07', line: 'Looking through material', description: 'A closer encounter with the textiles represented in the exhibition.', location: 'Location to be confirmed' },

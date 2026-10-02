@@ -25,7 +25,7 @@ function Garment({ object, decorative = false }) {
   return <img className={c ? 'garment cropped' : 'garment'} src={object.image} alt={decorative ? '' : object.alt} draggable="false" style={c ? { width: `${c.sourceWidth / c.width * 100}%`, maxWidth: 'none', left: `${-c.x / c.width * 100}%`, top: `${-c.y / c.height * 100}%` } : undefined} />;
 }
 export default function ObjectPage({ object }) {
-  const [mode, setMode] = useState('object');
+  const [mode, setMode] = useState(object.model ? 'rotate' : 'object');
   const [active, setActive] = useState(null);
   const [view, setView] = useState(object.views[0] || {id:'full',scale:1,origin:'50% 50%'});
   const group = cases.find(group => group.name === object.collection);
@@ -50,7 +50,7 @@ export default function ObjectPage({ object }) {
     <nav className="breadcrumbs" aria-label="Breadcrumb"><a href="#/">Home</a><span>/</span><a href="#/map">Exhibition map</a><span>/</span><a href={caseUrl(object.collection)}>{object.collection}</a><span>/</span><span aria-current="page">{object.accession || object.designer}</span></nav>
     <main id="content" className="object-page" tabIndex="-1">
       <section className="viewer" aria-label="Interactive garment viewer">
-        <div className="viewer-caption"><span>{mode === 'object' ? 'Object study' : '360° study'}</span><span>{object.accession || 'Loan'}</span></div>
+        <div className="viewer-caption"><span>{mode === 'object' ? 'Photograph study' : '360° study'}</span><span>{object.accession || 'Loan'}</span></div>
         <div hidden={mode !== 'object'}>{!object.image ? <div className="object-photo-placeholder"><p className="eyebrow">{object.collection}</p><h2>Photography forthcoming</h2><p>{object.assetNote}</p></div> : <><div className="image-window"><div className="image-plane" style={{ aspectRatio: object.crop ? `${object.crop.width} / ${object.crop.height}` : object.imageAspect, transform: `scale(${view.scale})`, transformOrigin: view.origin }}>
           <Garment object={object} />
           {object.hotspots.filter(h => { const [ox, oy] = view.origin.split(' ').map(parseFloat); const x = (h.x - ox) * view.scale + ox; const y = (h.y - oy) * view.scale + oy; return x > 8 && x < 92 && y > 6 && y < 94; }).map(h => <button key={h.id} ref={el => hotspotRefs.current[h.id] = el} className={`hotspot ${active?.id === h.id ? 'selected' : ''}`} style={{ left: `${h.x}%`, top: `${h.y}%`, transform: `translate(-50%, -50%) scale(${1 / view.scale})` }} aria-label={`Explore ${h.label.toLowerCase()}: ${h.title}`} aria-expanded={active?.id === h.id} aria-controls="interpretation" onClick={event => selectHotspot(h, event)}><span>{h.number}</span></button>)}
@@ -82,7 +82,7 @@ export default function ObjectPage({ object }) {
     </main>
     <nav className="navigation object-navigation" aria-label="Object views">
       <a href={caseUrl(object.collection)}><Icon name="case"/><span>{object.collection}</span></a>
-      <button aria-current={mode === 'object' ? 'page' : undefined} onClick={() => {setMode('object'); setActive(null);}}><Icon name="object"/><span>Object</span></button>
+      <button aria-current={mode === 'object' ? 'page' : undefined} onClick={() => {setMode('object'); setActive(null);}}><Icon name="object"/><span>Photos</span></button>
       <button disabled={!object.model} aria-current={mode === 'rotate' ? 'page' : undefined} onClick={() => {setMode('rotate'); setActive(null);}}><Icon name="rotate"/><span>360° View</span>{!object.model && <small>In preparation</small>}</button>
       <a href={`${caseUrl(object.collection)}/compare`}><Icon name="compare"/><span>Compare</span></a>
     </nav>
