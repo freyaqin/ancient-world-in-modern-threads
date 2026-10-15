@@ -24,11 +24,10 @@ function App() {
   else if(route==='/compare') {page=<Compare/>;title='Compare garments';}
   else if(route==='/map') {page=<ExhibitionMap/>;title='Exhibition map';}
   else if(parts[1]==='case' && group && (!parts[3] || parts[3]==='compare')){page=parts[3]==='compare'?<Compare key={group.name} group={group}/>:<CasePage group={group}/>;title=group.name;}
-  else if(parts[1]==='object' && item?.kind==='context'){const contextGroup=cases.find(c=>c.name===item.collection);page=<CasePage group={contextGroup}/>;title=contextGroup.name;}
   else if(parts[1]==='object' && item){page=<ObjectPage key={item.id} object={item}/>;title=item.title;}
   else page=<main id="content" className="explore-page not-found" tabIndex="-1"><h1>Page not found</h1><p>This object or display is not available in this preview.</p><a className="primary-link" href="#/map">Return to the exhibition map</a></main>;
   useEffect(()=>{document.title=title===site.title?title:`${title} · ${site.title}`;},[title]);
-  const isObject=parts[1]==='object' && !!item && item.kind!=='context';
+  const isObject=parts[1]==='object' && !!item;
   return <><a className="skip-link" href="#content" onClick={event=>{event.preventDefault();document.getElementById('content')?.focus();}}>Skip to content</a><header className="exhibition-header"><a href="#/" className="exhibition-brand">Ancient Worlds<span>in Modern Threads</span></a><nav aria-label="Main navigation"><a href="#/" aria-current={route==='/'?'page':undefined}>Home</a><a href="#/map" aria-current={route==='/map'?'page':undefined}>Exhibition map</a><a href="#/design" aria-current={route==='/design'?'page':undefined}>Design your own</a></nav></header>{page}{!isObject && <footer className="exhibition-footer"><span>{site.title}</span><span>{site.subtitle}</span><a href="#/map">Explore the map <Arrow direction="diagonal"/></a></footer>}</>;
 }
 createRoot(document.getElementById('root')).render(<App/>);
