@@ -104,3 +104,19 @@
 @media(max-width:759px){.exhibition-header{flex-wrap:wrap}.exhibition-header nav{gap:14px;flex-wrap:wrap}.design-overview{grid-template-columns:repeat(3,1fr)}.design-slot-list{grid-template-columns:1fr}.picker-grid{grid-template-columns:repeat(2,1fr)}.object-picker{padding:16px}.picker-filters{grid-template-columns:1fr}.design-toolbar{gap:14px}.design-toolbar label{width:100%}.comparison-grid select{font-size:16px}.comparison-placeholder{height:270px}.wall-label{font-size:11px}.plan-case strong{font-size:12px}.plan-fluting strong,.plan-mantled strong{font-size:17px}}
 
 .wall-texts{max-width:850px;margin:64px auto}.wall-texts summary{padding:18px 0;cursor:pointer;color:var(--accent);font-size:20px}.wall-texts details{border-bottom:1px solid var(--line)}.wall-texts p{line-height:1.8}.related-collection{margin:55px 0}.related-collection .object-card p{font-size:14px}.plan-mantled strong{overflow-wrap:normal}
+
+.artwork-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:24px; margin-top:24px; }
+.artwork-tombstone { position:relative; }
+.artwork-tombstone button { color:#442121; background:transparent; border:1px solid #b8aaa2; min-height:44px; cursor:pointer; font:inherit; text-align:left; }
+.artwork-card button { width:100%; padding:18px; }
+.artwork-card strong { display:block; font-family:Georgia,serif; font-size:21px; }
+.artwork-hint { display:block; font-size:12px; margin-top:12px; color:#105681; }
+.artwork-label { background:#F6F3ED; color:#442121; padding:18px; border:1px solid #b8aaa2; font-size:14px; line-height:1.5; text-align:left; }
+.artwork-label p { margin:8px 0 0; }
+.artwork-label strong { font-family:Georgia,serif; font-size:19px; }
+.artwork-accession { font-size:12px; }
+.artwork-marker { position:absolute; transform:translate(-50%,-50%); z-index:3; }
+.artwork-marker:focus-within,.artwork-marker:hover { z-index:5; }
+.artwork-marker button { width:44px; height:44px; border-radius:50%; background:#F6F3ED; text-align:center; font-family:Georgia,serif; font-size:22px; box-shadow:0 1px 5px #0003; }
+.artwork-marker .artwork-label { position:absolute; left:50%; top:44px; transform:translateX(-50%); width:240px; max-height:340px; overflow:auto; box-shadow:0 4px 20px #0003; }
+.artwork-tombstone button:focus-visible { outline:3px solid #105681; outline-offset:3px; }

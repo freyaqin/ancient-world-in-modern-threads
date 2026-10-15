@@ -39,7 +39,11 @@
       "height": 178.65,
       "x": 472.36,
       "y": 381.12
-    }
+    },
+    "installationPosition": [
+      32,
+      38
+    ]
   },
   {
     "id": "76.093.060",
@@ -81,7 +85,11 @@
       "height": 142.92,
       "x": 674.8,
       "y": 393.03
-    }
+    },
+    "installationPosition": [
+      43,
+      38
+    ]
   },
   {
     "id": "84.078",
@@ -123,7 +131,11 @@
       "height": 393.03,
       "x": 944.72,
       "y": 476.4
-    }
+    },
+    "installationPosition": [
+      60,
+      53
+    ]
   },
   {
     "id": "83.099.001",
@@ -165,7 +177,11 @@
       "height": 71.46,
       "x": 1180.9,
       "y": 428.76
-    }
+    },
+    "installationPosition": [
+      73,
+      39
+    ]
   },
   {
     "id": "99.078.094",
@@ -207,7 +223,11 @@
       "height": 166.74,
       "x": 1383.34,
       "y": 381.12
-    }
+    },
+    "installationPosition": [
+      86,
+      38
+    ]
   },
   {
     "id": "cheney-1929",
@@ -242,7 +262,11 @@
     "imageAspect": "974 / 1614",
     "alt": "The Fabric Guide: Textile Sample Book",
     "assetNote": "",
-    "source": "Curator final tombstones, October 15, 2026"
+    "source": "Curator final tombstones, October 15, 2026",
+    "installationPosition": [
+      61,
+      65
+    ]
   },
   {
     "id": "CCC_0175",
@@ -277,7 +301,11 @@
     "imageAspect": "574 / 1024",
     "alt": "Seated Figure Restored as the Muse Urania",
     "assetNote": "",
-    "source": "Curator final tombstones, October 15, 2026"
+    "source": "Curator final tombstones, October 15, 2026",
+    "installationPosition": [
+      84,
+      68
+    ]
   },
   {
     "id": "CCC_0587",
@@ -313,7 +341,11 @@
     "alt": "Standing Woman with Hat and Fan",
     "assetNote": "",
     "source": "Curator final tombstones, October 15, 2026",
-    "origin": "Berlin, Germany"
+    "origin": "Berlin, Germany",
+    "installationPosition": [
+      26,
+      55
+    ]
   },
   {
     "id": "CCC_0588",
@@ -349,7 +381,11 @@
     "alt": "Standing Woman with Mirror",
     "assetNote": "",
     "source": "Curator final tombstones, October 15, 2026",
-    "origin": "Berlin, Germany"
+    "origin": "Berlin, Germany",
+    "installationPosition": [
+      31,
+      55
+    ]
   },
   {
     "id": "CCC_0585",
@@ -456,7 +492,11 @@
     "imageAspect": "1500 / 2000",
     "alt": "Pair of Ceramic Vessels in Black-Figure Style",
     "assetNote": "Photograph shows one of the pair of vessels.",
-    "source": "Curator final tombstones, October 15, 2026"
+    "source": "Curator final tombstones, October 15, 2026",
+    "installationPosition": [
+      42,
+      22
+    ]
   },
   {
     "id": "2021.3.95",
@@ -491,7 +531,11 @@
     "imageAspect": "1500 / 2000",
     "alt": "Decorative Plate with Greek-Key Border and Mythological Figure",
     "assetNote": "",
-    "source": "Curator final tombstones, October 15, 2026"
+    "source": "Curator final tombstones, October 15, 2026",
+    "installationPosition": [
+      50,
+      22
+    ]
   },
   {
     "id": "2024.4.5",
@@ -526,7 +570,11 @@
     "imageAspect": "1500 / 2000",
     "alt": "Framed Egyptian-Style Papyrus Painting with Offering Scene",
     "assetNote": "",
-    "source": "Curator final tombstones, October 15, 2026"
+    "source": "Curator final tombstones, October 15, 2026",
+    "installationPosition": [
+      20,
+      22
+    ]
   },
   {
     "id": "2024.4.15",
@@ -561,7 +609,11 @@
     "imageAspect": "1500 / 2000",
     "alt": "Egyptian-Style Relief Tile with Standing Figures and Hieroglyphs",
     "assetNote": "",
-    "source": "Curator final tombstones, October 15, 2026"
+    "source": "Curator final tombstones, October 15, 2026",
+    "installationPosition": [
+      28,
+      24
+    ]
   },
   {
     "id": "anthro-egypt-vase",
@@ -596,7 +648,11 @@
     "imageAspect": "1500 / 2000",
     "alt": "Egyptian Revival Decorative Vase with Figural Scene",
     "assetNote": "",
-    "source": "Curator final tombstones, October 15, 2026"
+    "source": "Curator final tombstones, October 15, 2026",
+    "installationPosition": [
+      33,
+      22
+    ]
   },
   {
     "id": "2024.2.2",
@@ -631,6 +687,10 @@
     "imageAspect": "1500 / 2000",
     "alt": "Egyptian-Style Beaded Necklace",
     "assetNote": "",
-    "source": "Curator final tombstones, October 15, 2026"
+    "source": "Curator final tombstones, October 15, 2026",
+    "installationPosition": [
+      45,
+      24
+    ]
   }
 ]

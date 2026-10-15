@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
-import { getObject } from './data/objects';
+import ArtworkTombstone from './ArtworkTombstone';
+import { getObject, relatedObjects } from './data/objects';
 import { objectUrl } from './data/site';
 
 export default function CaseInstallation({ installation, children }) {
@@ -29,6 +30,7 @@ export default function CaseInstallation({ installation, children }) {
         }}>
         <div className={`installation-scene ${enlarged ? 'enlarged' : ''}`} style={{minWidth: enlarged ? Math.max(1000, installation.minWidth) : installation.minWidth, maxWidth: enlarged ? undefined : installation.maxWidth}}>
           <img src={installation.image} alt={installation.alt} width={installation.width} height={installation.height} />
+          {relatedObjects(installation.name).filter(item => item.installationPosition).map(item => <ArtworkTombstone key={item.id} item={item} marker style={{left:`${item.installationPosition[0]}%`,top:`${item.installationPosition[1]}%`}}/>)}
           {installation.markers.map((marker,index) => {
             const item = getObject(marker.id);
             return <a key={marker.id} className="installation-marker" href={objectUrl(marker.id)} style={{left:`${marker.x}%`,top:`${marker.y}%`}} aria-label={`Garment ${index+1}: ${item.title}`}>
@@ -37,7 +39,7 @@ export default function CaseInstallation({ installation, children }) {
           })}
         </div>
       </div>
-      <figcaption><strong>Final installation plan</strong><span>Digital mockup · Garment markers open collection pages. Explore the accompanying artwork and borrowed-object records below.</span></figcaption>
+      <figcaption><strong>Final installation plan</strong><span>Digital mockup · Garment markers open collection pages. Hover, focus, or tap an i marker or an artwork title below to read its tombstone.</span></figcaption>
       {installation.note && <p className="installation-help">{installation.note}</p>}
       <ol className="installation-key">{installation.markers.map(marker => <li key={marker.id}><a href={objectUrl(marker.id)}>{getObject(marker.id).title}</a></li>)}</ol>
     </figure>}
