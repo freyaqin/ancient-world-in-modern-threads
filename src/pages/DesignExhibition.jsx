@@ -5,7 +5,7 @@ import { assetPath } from '../data/asset-path';
 import { blankDesign, designCases, slotPositions } from '../data/design-cases';
 import { Breadcrumbs } from './Explore';
 
-const storageKey = 'exhibition-personal-design-v1';
+const storageKey = 'exhibition-personal-design-v2';
 const collection = cases.flatMap(c => c.objects.map(getObject));
 function ObjectPicker({ used, onChoose, onClose }) {
   const dialog = useRef(null);
@@ -26,7 +26,7 @@ function ObjectPicker({ used, onChoose, onClose }) {
 }
 export default function DesignExhibition() {
   const [scope, setScope] = useState('single');
-  const [activeCase, setActiveCase] = useState('Cascade');
+  const [activeCase, setActiveCase] = useState('Gathers');
   const [design, setDesign] = useState(blankDesign);
   const [slot, setSlot] = useState(null);
   const [notice, setNotice] = useState('');
@@ -79,13 +79,13 @@ export default function DesignExhibition() {
     </div>
     {scope === 'all' && <nav className="design-overview" aria-label="Your exhibition cases">{cases.map(c => <button key={c.name} aria-pressed={activeCase === c.name} onClick={() => setActiveCase(c.name)}><strong>{c.name}</strong><span>{design[c.name].filter(Boolean).length} / {design[c.name].length} placed</span></button>)}</nav>}
     <div className="section-heading"><h2>{activeCase}</h2><p>{slots.filter(Boolean).length} of {slots.length} spaces filled</p></div>
-    <p className="installation-help">Select + to add a garment. Select a filled space to replace it. Photographs show your arrangement as a layout study; scale is approximate.{activeCase === 'Fluting' && ' Three spaces sit on each side of the monitor.'} On phones, swipe across the case.</p>
+    <p className="installation-help">Select + to add a garment. Select a filled space to replace it. Photographs show your arrangement as a layout study; scale is approximate.{activeCase === 'Pleats' && ' Three spaces sit on each side of the monitor.'} On phones, swipe across the case.</p>
     <div className="design-scroller" tabIndex="0" role="region" aria-label={`${activeCase} arrangement`}>
-      <div ref={scene} className={`design-scene ${activeCase === 'Contrapposto' ? 'portrait' : ''}`}>
+      <div ref={scene} className={`design-scene ${activeCase === 'Posture' ? 'portrait' : ''}`}>
         <img className="blank-case" src={assetPath(config.image)} alt={`Empty ${activeCase} display case`}/>
         {slotPositions(activeCase, slots.length).map((x, index) => {
           const object = getObject(slots[index]);
-          return <button type="button" key={index} className={`design-slot ${object ? 'filled' : ''}`} style={{left:`${x}%`,top:`${config.top}%`,height:`${config.bottom-config.top}%`,width:activeCase === 'Contrapposto' ? '18%' : activeCase === 'Cascade' ? `${Math.min(9, 62/slots.length)}%` : '10%'}} onClick={e => openPicker(index, e)} aria-label={object ? `Replace slot ${index+1}: ${object.title}` : `Add garment to slot ${index+1}`}>
+          return <button type="button" key={index} className={`design-slot ${object ? 'filled' : ''}`} style={{left:`${x}%`,top:`${config.top}%`,height:`${config.bottom-config.top}%`,width:activeCase === 'Posture' ? '18%' : activeCase === 'Gathers' ? `${Math.min(9, 62/slots.length)}%` : '10%'}} onClick={e => openPicker(index, e)} aria-label={object ? `Replace slot ${index+1}: ${object.title}` : `Add garment to slot ${index+1}`}>
             {object ? <>{object.image ? <img src={object.image} alt=""/> : <span className="slot-placeholder">{object.title}<small>Image forthcoming</small></span>}<span className="slot-number">{index+1}</span></> : <><span className="slot-plus" aria-hidden="true">+</span><span>Slot {index+1}</span></>}
           </button>;
         })}

@@ -1,0 +1,199 @@
+{
+  "Gathers": {
+    "name": "Gathers",
+    "image": "/cases/final-gathers.webp",
+    "source": "/Users/freyaqin/Desktop/Final Gathers.png",
+    "alt": "Final Gathers installation mockup, showing the selected garments and accompanying objects.",
+    "width": 1687,
+    "height": 1191,
+    "minWidth": 700,
+    "maxWidth": 1400,
+    "markers": [
+      {
+        "id": "1995.07.008",
+        "x": 25,
+        "y": 60
+      },
+      {
+        "id": "2015.14.081ab",
+        "x": 37,
+        "y": 60
+      },
+      {
+        "id": "2026.06.177a",
+        "x": 47,
+        "y": 60
+      },
+      {
+        "id": "1926",
+        "x": 71,
+        "y": 61
+      },
+      {
+        "id": "2002.08.005",
+        "x": 80,
+        "y": 61
+      },
+      {
+        "id": "2026.06.143",
+        "x": 92,
+        "y": 61
+      }
+    ]
+  },
+  "Posture": {
+    "name": "Posture",
+    "image": "/cases/final-posture.webp",
+    "source": "/Users/freyaqin/Desktop/Final Posture.png",
+    "alt": "Final Posture installation mockup, showing the selected garments and accompanying objects.",
+    "width": 1191,
+    "height": 1588,
+    "minWidth": 450,
+    "maxWidth": 700,
+    "markers": [
+      {
+        "id": "1997.33.064",
+        "x": 30,
+        "y": 53
+      },
+      {
+        "id": "2026.06.138",
+        "x": 52,
+        "y": 53
+      },
+      {
+        "id": "2002.05.090",
+        "x": 70,
+        "y": 53
+      }
+    ]
+  },
+  "Pleats": {
+    "name": "Pleats",
+    "image": "/cases/final-pleats.webp",
+    "source": "/Users/freyaqin/Desktop/Final Pleats.png",
+    "alt": "Final Pleats installation mockup, showing the selected garments and accompanying objects.",
+    "width": 1588,
+    "height": 1191,
+    "minWidth": 600,
+    "maxWidth": 1400,
+    "markers": [
+      {
+        "id": "loan-issey-miyake",
+        "x": 13,
+        "y": 60
+      },
+      {
+        "id": "2002.05.026",
+        "x": 25,
+        "y": 60
+      },
+      {
+        "id": "2012.08.027ab",
+        "x": 38,
+        "y": 60
+      },
+      {
+        "id": "loan-madame-gres",
+        "x": 70,
+        "y": 60
+      },
+      {
+        "id": "2021.12.001",
+        "x": 83,
+        "y": 60
+      }
+    ]
+  },
+  "Layers": {
+    "name": "Layers",
+    "image": "/cases/final-layers.webp",
+    "source": "/Users/freyaqin/Desktop/Final Layers.png",
+    "alt": "Final Layers installation mockup, showing the selected garments and accompanying objects.",
+    "width": 1588,
+    "height": 1191,
+    "minWidth": 600,
+    "maxWidth": 1400,
+    "markers": [
+      {
+        "id": "2002.08.016",
+        "x": 17,
+        "y": 58
+      },
+      {
+        "id": "2026.06.360",
+        "x": 42,
+        "y": 58
+      },
+      {
+        "id": "2002.08.015",
+        "x": 60,
+        "y": 58
+      }
+    ]
+  },
+  "Ancient World: Greece": {
+    "name": "Ancient World: Greece",
+    "image": "/cases/final-greece.webp",
+    "source": "/Users/freyaqin/Desktop/Final Greece.png",
+    "alt": "Final Ancient World: Greece installation mockup, showing the selected garments and accompanying objects.",
+    "width": 1588,
+    "height": 1191,
+    "minWidth": 600,
+    "maxWidth": 1400,
+    "markers": [
+      {
+        "id": "873ab",
+        "x": 23,
+        "y": 60
+      },
+      {
+        "id": "1995.07.009",
+        "x": 49,
+        "y": 60
+      },
+      {
+        "id": "2002.09.066",
+        "x": 65,
+        "y": 60
+      },
+      {
+        "id": "322",
+        "x": 81,
+        "y": 60
+      }
+    ]
+  },
+  "Ancient World: Egypt": {
+    "name": "Ancient World: Egypt",
+    "image": "/cases/final-egypt.webp",
+    "source": "/Users/freyaqin/Desktop/Final Egypt.png",
+    "alt": "Final Ancient World: Egypt installation mockup, showing the selected garments and accompanying objects.",
+    "width": 1588,
+    "height": 1191,
+    "minWidth": 600,
+    "maxWidth": 1400,
+    "markers": [
+      {
+        "id": "883",
+        "x": 24,
+        "y": 60
+      },
+      {
+        "id": "1999.17.001",
+        "x": 40,
+        "y": 60
+      },
+      {
+        "id": "1997.17.017ab",
+        "x": 69,
+        "y": 60
+      },
+      {
+        "id": "2015.30.016",
+        "x": 85,
+        "y": 60
+      }
+    ]
+  }
+}

@@ -29,7 +29,7 @@ export default function ObjectPage({ object }) {
   const [active, setActive] = useState(null);
   const [view, setView] = useState(object.views[0] || {id:'full',scale:1,origin:'50% 50%'});
   const group = cases.find(group => group.name === object.collection);
-  const position = group.objects.indexOf(object.id);
+  const position = group?.objects.indexOf(object.id) ?? -1;
   const runway = runwayNotes[object.id];
   const hotspotRefs = useRef({});
   const triggerRef = useRef(null);
@@ -49,7 +49,7 @@ export default function ObjectPage({ object }) {
   return <>
     <nav className="breadcrumbs" aria-label="Breadcrumb"><a href="#/">Home</a><span>/</span><a href="#/map">Exhibition map</a><span>/</span><a href={caseUrl(object.collection)}>{object.collection}</a><span>/</span><span aria-current="page">{object.accession || object.designer}</span></nav>
     <main id="content" className="object-page" tabIndex="-1">
-      <section className="viewer" aria-label="Interactive garment viewer">
+      <section className="viewer" aria-label="Interactive object viewer">
         <div className="viewer-caption"><span>{mode === 'object' ? 'Photograph study' : '360° study'}</span><span>{object.accession || 'Loan'}</span></div>
         <div hidden={mode !== 'object'}>{!object.image ? <div className="object-photo-placeholder"><p className="eyebrow">{object.collection}</p><h2>Photography forthcoming</h2><p>{object.assetNote}</p></div> : <><div className="image-window"><div className="image-plane" style={{ aspectRatio: object.crop ? `${object.crop.width} / ${object.crop.height}` : object.imageAspect, transform: `scale(${view.scale})`, transformOrigin: view.origin }}>
           <Garment object={object} />
@@ -60,8 +60,8 @@ export default function ObjectPage({ object }) {
         {mode === 'rotate' && <Suspense fallback={<p role="status">Loading the 3D viewer…</p>}><ModelViewer object={object} /></Suspense>}
       </section>
       <aside className="object-info" aria-label="About this object">
-        <p className="eyebrow">{object.collection} / {object.accession || 'Loan'}</p>{object.alternate && <p className="record-note">Alternate study object · retained for exploration, outside the current display sequence.</p>}<h1>{object.title}</h1><p className="attribution">{object.designer}<span>{object.date}</span></p>
-        <p className="credit">{object.credit}<br/><span>{object.footer}</span></p>
+        <p className="eyebrow">{object.collection} / {object.accession || 'Loan'}</p>{object.alternate && <p className="record-note">Alternate study object · retained for exploration, outside the current display sequence.</p>}{object.retired && <p className="record-note">Study archive · not in the current exhibition selection.</p>}<h1>{object.title}</h1><p className="attribution">{object.designer}<span>{object.date}</span></p>
+        <p className="credit">{object.credit}</p>
         <ObjectResponse key={object.id} question={object.question} />
         <p className="description">{object.description}</p>
         <dl className="facts"><div><dt>Material</dt><dd>{object.material}</dd></div>{object.origin && <div><dt>Recorded origin</dt><dd>{object.origin}</dd></div>}{object.wornBy && <div><dt>Worn by</dt><dd>{object.wornBy}</dd></div>}<div><dt>{object.alternate ? 'Related case' : 'Display'}</dt><dd>{object.collection}</dd></div></dl>
@@ -77,13 +77,13 @@ export default function ObjectPage({ object }) {
         <section id="interpretation" className={`interpretation ${active ? 'is-open' : ''}`} aria-label="Selected garment detail" hidden={!active} onKeyDown={e => { if (e.key === 'Escape') closeDetail(); }}>
           {active && <><div className="detail-top"><span className="eyebrow">Detail {active.number} / {active.label}</span><button className="close-button" aria-label="Close detail" onClick={closeDetail}><Icon name="close" /></button></div><div ref={detailRef} tabIndex="-1" className="detail-copy"><h2>{active.title}</h2><p>{active.text}</p></div></>}
         </section>
-        <p className="collection-note">{object.footer}</p>
+        {object.footer !== object.credit && <p className="collection-note">{object.footer}</p>}
       </aside>
     </main>
     <nav className="navigation object-navigation" aria-label="Object views">
       <a href={caseUrl(object.collection)}><Icon name="case"/><span>{object.collection}</span></a>
       <button aria-current={mode === 'object' ? 'page' : undefined} onClick={() => {setMode('object'); setActive(null);}}><Icon name="object"/><span>Photos</span></button>
-      <button disabled={!object.model} aria-current={mode === 'rotate' ? 'page' : undefined} onClick={() => {setMode('rotate'); setActive(null);}}><Icon name="rotate"/><span>360° View</span>{!object.model && <small>In preparation</small>}</button>
+      {object.kind !== 'context' && <button disabled={!object.model} aria-current={mode === 'rotate' ? 'page' : undefined} onClick={() => {setMode('rotate'); setActive(null);}}><Icon name="rotate"/><span>360° View</span>{!object.model && <small>In preparation</small>}</button>}
       <a href={`${caseUrl(object.collection)}/compare`}><Icon name="compare"/><span>Compare</span></a>
     </nav>
   </>;

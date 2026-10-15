@@ -16,7 +16,8 @@ function App() {
   useEffect(()=>{const update=()=>setRoute(readRoute());window.addEventListener('hashchange',update);return()=>window.removeEventListener('hashchange',update);},[]);
   useEffect(()=>{window.scrollTo(0,0);requestAnimationFrame(()=>document.getElementById('content')?.focus({preventScroll:true}));},[route]);
   let page, title=site.title; const parts=route.split('/');
-  const group=cases.find(item=>caseSlug(item.name)===parts[2]);
+  const legacyCases={cascade:'gathers',contrapposto:'posture',fluting:'pleats',mantled:'layers',meander:'greece',gilded:'egypt'};
+  const group=cases.find(item=>caseSlug(item.name)===(legacyCases[parts[2]] || parts[2]));
   let item;try{item=getObject(decodeURIComponent(parts[2]||''));}catch{}
   if(route==='/' || route==='')page=<Home/>;
   else if(route==='/design') {page=<DesignExhibition/>;title='Design your own exhibition';}
@@ -27,6 +28,6 @@ function App() {
   else page=<main id="content" className="explore-page not-found" tabIndex="-1"><h1>Page not found</h1><p>This object or display is not available in this preview.</p><a className="primary-link" href="#/map">Return to the exhibition map</a></main>;
   useEffect(()=>{document.title=title===site.title?title:`${title} · ${site.title}`;},[title]);
   const isObject=parts[1]==='object' && !!item;
-  return <><a className="skip-link" href="#content" onClick={event=>{event.preventDefault();document.getElementById('content')?.focus();}}>Skip to content</a><header className="exhibition-header"><a href="#/" className="exhibition-brand">Ancient World<span>in Modern Threads</span></a><nav aria-label="Main navigation"><a href="#/" aria-current={route==='/'?'page':undefined}>Home</a><a href="#/map" aria-current={route==='/map'?'page':undefined}>Exhibition map</a><a href="#/design" aria-current={route==='/design'?'page':undefined}>Design your own</a></nav></header>{page}{!isObject && <footer className="exhibition-footer"><span>{site.title}</span><span>{site.subtitle}</span><a href="#/map">Explore the map <Arrow direction="diagonal"/></a></footer>}</>;
+  return <><a className="skip-link" href="#content" onClick={event=>{event.preventDefault();document.getElementById('content')?.focus();}}>Skip to content</a><header className="exhibition-header"><a href="#/" className="exhibition-brand">Ancient Worlds<span>in Modern Threads</span></a><nav aria-label="Main navigation"><a href="#/" aria-current={route==='/'?'page':undefined}>Home</a><a href="#/map" aria-current={route==='/map'?'page':undefined}>Exhibition map</a><a href="#/design" aria-current={route==='/design'?'page':undefined}>Design your own</a></nav></header>{page}{!isObject && <footer className="exhibition-footer"><span>{site.title}</span><span>{site.subtitle}</span><a href="#/map">Explore the map <Arrow direction="diagonal"/></a></footer>}</>;
 }
 createRoot(document.getElementById('root')).render(<App/>);

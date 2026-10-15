@@ -1,0 +1,38 @@
+{
+  "Gathers": {
+    "number": "01",
+    "line": "Volume and Proportion",
+    "description": "Gathering draws fabric together at selected points, creating folds that open into fullness. The garments and artworks presented here invite us to examine how these folds both reveal and shape the body beneath.",
+    "location": "Level T · beside Jill Stuart Gallery"
+  },
+  "Posture": {
+    "number": "02",
+    "line": "Balance in Motion",
+    "description": "Posture describes the body’s position in space. Comportment refers to the way a body is held and how we carry ourselves, which reflects culturally specific learned ways of standing and moving. Ancient Greek sculptors used contrapposto to make standing figures appear more lifelike. In this position, one leg carries most of the body’s weight, while the hips and shoulders tilt in different directions, creating an asymmetrical balance.",
+    "location": "Level T · central case"
+  },
+  "Pleats": {
+    "number": "03",
+    "line": "Line and Rhythm",
+    "description": "Pleats are clearly defined folds in fabric, which are typically linear in nature and consist of exterior folds and interior folds. There are many ways to create pleat structures. For instance, the exterior folds of a knife pleat all point in the same direction and are created through overlapping, whereas a box pleat sets knife pleats back-to-back so that the exterior edges “kiss” (they are sometimes referred to as kissing pleats for this reason). Accordion pleats alternate back-and-forth in a zigzag. The sunburst pleat begins narrow at the top and increases its width down the length of the fabric to add greater fullness. When a pleat is rounded rather than sharp at its edge, it is referred to as fluting. The shape and scale of a pleat’s peaks and hollows catch light differently, creating variations in light and shadow across the garment’s surface.",
+    "location": "Level T · Jill Stuart Gallery wall"
+  },
+  "Layers": {
+    "number": "04",
+    "line": "Shape and Enclosure",
+    "description": "Layering places one fabric over another, building multiple outlines around the body. An outer layer might wrap across the chest, hang from the shoulders, or fall behind the wearer’s back. Its shape depends on where it is held and how freely it hangs.",
+    "location": "Level T · beside the restrooms"
+  },
+  "Ancient World: Greece": {
+    "number": "05",
+    "line": "Pattern and Emphasis",
+    "description": "This case takes ancient Greek ornament as a starting point for exploring decorative traditions across the Mediterranean. A motif is a decorative shape or image that can be repeated to form a pattern. On textiles, these designs can be printed, woven, embroidered, or formed with beads, sequins, stones, and other attachments. Displayed alongside Greek ceramics, the garments invite us to consider how ornament directs attention and organizes a surface.",
+    "location": "Level 1"
+  },
+  "Ancient World: Egypt": {
+    "number": "06",
+    "line": "Color and Light",
+    "description": "In ancient Egypt, gold’s color and radiance linked it to the sun and the gods. Centuries later, fascination with ancient Egypt—often called Egyptomania—inspired art, architecture, and fashion. The discovery of Tutankhamun’s tomb in 1922 renewed this interest, bringing images of its rich colors and golden treasures to a wide audience.",
+    "location": "Level 2"
+  }
+}

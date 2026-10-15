@@ -37,7 +37,7 @@ export default function CaseInstallation({ installation, children }) {
           })}
         </div>
       </div>
-      <figcaption><strong>Proposed installation</strong><span>Digital mockup · Garment markers open collection pages. Artwork and other borrowed-object records will be added later.</span></figcaption>
+      <figcaption><strong>Final installation plan</strong><span>Digital mockup · Garment markers open collection pages. Explore the accompanying artwork and borrowed-object records below.</span></figcaption>
       {installation.note && <p className="installation-help">{installation.note}</p>}
       <ol className="installation-key">{installation.markers.map(marker => <li key={marker.id}><a href={objectUrl(marker.id)}>{getObject(marker.id).title}</a></li>)}</ol>
     </figure>}
