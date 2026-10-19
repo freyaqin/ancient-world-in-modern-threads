@@ -124,3 +124,6 @@
 .wall-display-photos figure { margin:24px 0; }
 .wall-display-photos img { display:block; width:100%; height:auto; }
 .wall-display-photos figcaption { padding:12px 0; font-size:14px; }
+/* Keep the complete group label together below the installation. */
+.case-heading { grid-template-columns:1fr; }
+.case-interpretation { columns:1; max-width:800px; margin-left:auto; margin-right:auto; }
