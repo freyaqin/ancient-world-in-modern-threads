@@ -30,7 +30,7 @@
     "recordNote": "",
     "kind": "garment",
     "source": "Curator final tombstones, October 15, 2026",
-    "model": null,
+    "model": "/models/1995.07.008-2026.glb",
     "image": "/images/1995.07.008-final.webp",
     "thumbnail": "/images/1995.07.008-final-card.webp",
     "modelRotation": [
@@ -64,10 +64,22 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/2015.14.081ab-detail-1.webp",
+        "alt": "Detail photograph of pink empire-waist dress with neckline bow",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail-2",
+        "label": "Detail 2",
+        "image": "/images/2015.14.081ab-detail-2.webp",
+        "alt": "Detail photograph of pink empire-waist dress with neckline bow",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "alternate": false,
@@ -76,7 +88,7 @@
     "recordNote": "",
     "kind": "garment",
     "source": "Curator final tombstones, October 15, 2026",
-    "model": null,
+    "model": "/models/2015.14.081ab-2026.glb",
     "image": "/images/2015.14.081ab-final.webp",
     "thumbnail": "/images/2015.14.081ab-final-card.webp",
     "modelRotation": [
@@ -106,10 +118,13 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/2026.06.177a-detail-1.webp",
+        "alt": "Detail photograph of off-white chiffon gown with wooden beadwork and fluted skirt",
+        "imageAspect": "1800 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "note": "Explore the photograph and the object record below.",
@@ -128,7 +143,7 @@
     "image": "/images/2026.06.177ab.webp",
     "thumbnail": "/images/2026.06.177ab-card.webp",
     "imageAspect": "4000 / 6000",
-    "model": null,
+    "model": "/models/2026.06.177a-2026.glb",
     "alt": "Off-white chiffon gown with wooden beadwork and fluted skirt, photographed on a display mannequin.",
     "labelSource": "Off-white silk chiffon dress and wooden-bead cardigan\n\nSpring 2007, Haute Couture\n\nRalph Rucci\n\nOff-white silk chiffon evening dress paired with an openwork cardigan constructed entirely from wooden beads. Radiating beadwork ornaments the high-necked bodice, while a narrow braided belt defines the waist. Below, gathered chiffon panels open into fluted sections at the front and back, continuing into a soft train and fringed hem. The cardigan transforms wooden beads into a flexible diamond-patterned mesh, its natural variations in color and weight providing a tactile counterpoint to the translucent chiffon beneath.\n\nRalph Rucci Collection, CF+TC No. 2026.06.177ab. Anonymous gift",
     "provenance": {
@@ -153,10 +168,11 @@
       "donorEntry": "Anonymous"
     },
     "retired": false,
-    "assetNote": "The photograph shows the gown without its cardigan. A 3D model of this selected configuration is in preparation.",
+    "assetNote": "",
     "recordNote": "",
     "kind": "garment",
-    "source": "Curator final tombstones, October 15, 2026"
+    "source": "Curator final tombstones, October 15, 2026",
+    "modelWithoutJacket": "/models/2026.06.177a-no-jacket-2026.glb"
   },
   {
     "id": "1926",
@@ -177,10 +193,13 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/1926-detail-1.webp",
+        "alt": "Detail photograph of rose evening gown with embroidered net layers",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "alternate": false,
@@ -189,19 +208,19 @@
     "recordNote": "",
     "kind": "garment",
     "source": "Curator final tombstones, October 15, 2026",
-    "model": null,
-    "image": "/images/1926-final.webp",
-    "thumbnail": "/images/1926-final-card.webp",
+    "model": "/models/1926-2026.glb",
+    "image": "/images/1926-headless.webp",
+    "thumbnail": "/images/1926-headless-card.webp",
     "modelRotation": [
       0,
       0,
       0
     ],
     "note": "Explore the photograph and the object record below.",
-    "imageAspect": "1467 / 2200",
+    "imageAspect": "1600 / 2400",
     "collection": "Gathers",
     "displayOrder": 4,
-    "alt": "Rose evening gown with embroidered net layers, photographed on a display mannequin.",
+    "alt": "Rose evening gown with embroidered net layers, displayed on a headless dress form.",
     "description": "Embroidered net creates overlapping outlines around the figure. Fabric draws inward at the waist before opening into an irregular, layered skirt, while decoration makes the edges of the sheer layers easier to follow. In Gathers, the gown connects fullness with visual emphasis: the places where cloth is held become points from which the surrounding volume unfolds."
   },
   {
@@ -219,10 +238,22 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/2002.08.005-detail-1.webp",
+        "alt": "Detail photograph of pink chiffon evening dress with draped sash and flowers",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail-2",
+        "label": "Detail 2",
+        "image": "/images/2002.08.005-detail-2.webp",
+        "alt": "Detail photograph of pink chiffon evening dress with draped sash and flowers",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "note": "Explore the photograph and the object record below.",
@@ -286,10 +317,13 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/2026.06.143-detail-1.webp",
+        "alt": "Detail photograph of stone-colored jersey gown with fluted train",
+        "imageAspect": "1800 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "note": "Explore the photograph and the object record below.",
@@ -353,10 +387,31 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/loan-issey-miyake-detail-1.webp",
+        "alt": "Detail photograph of dress, from the rhythm pleats series",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail-2",
+        "label": "Detail 2",
+        "image": "/images/loan-issey-miyake-detail-2.webp",
+        "alt": "Detail photograph of dress, from the rhythm pleats series",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail-3",
+        "label": "Detail 3",
+        "image": "/images/loan-issey-miyake-detail-3.webp",
+        "alt": "Detail photograph of dress, from the rhythm pleats series",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "note": "Explore the photograph and the object record below.",
@@ -376,7 +431,7 @@
     "thumbnail": "/images/loan-issey-miyake-final-card.webp",
     "imageAspect": "1467 / 2200",
     "alt": "Dress, from the Rhythm Pleats series, photographed on a display mannequin.",
-    "model": null,
+    "model": "/models/loan-issey-miyake-2026.glb",
     "assetNote": "",
     "placeholder": true,
     "question": "Looking at the proposed case image, how do this dress’s diagonal lines change your idea of a pleat?",
@@ -522,7 +577,8 @@
     "assetNote": "",
     "recordNote": "",
     "kind": "garment",
-    "source": "Curator final tombstones, October 15, 2026"
+    "source": "Curator final tombstones, October 15, 2026",
+    "modelWithoutJacket": "/models/2012.08.027ab-no-jacket-2026.glb"
   },
   {
     "id": "loan-madame-gres",
@@ -539,10 +595,13 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/loan-madame-gres-detail-1.webp",
+        "alt": "Detail photograph of navy silk jersey evening gown with pleated waist",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "note": "Explore the photograph and the object record below.",
@@ -562,7 +621,7 @@
     "thumbnail": "/images/loan-madame-gres-final-card.webp",
     "imageAspect": "1467 / 2200",
     "alt": "Navy silk jersey evening gown with pleated waist, photographed on a display mannequin.",
-    "model": null,
+    "model": "/models/loan-madame-gres-2026.glb",
     "assetNote": "",
     "placeholder": true,
     "question": "Looking at the proposed case image, where does the gathered fabric begin to fall freely?",
@@ -725,10 +784,22 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/2026.06.360-detail-1.webp",
+        "alt": "Detail photograph of peach chiffon evening gown with sheer cape-like panels",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail-2",
+        "label": "Detail 2",
+        "image": "/images/2026.06.360-detail-2.webp",
+        "alt": "Detail photograph of peach chiffon evening gown with sheer cape-like panels",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "alternate": false,
@@ -738,7 +809,7 @@
     "kind": "garment",
     "source": "Curator final tombstones, October 15, 2026",
     "wornBy": "Rosina Rucci",
-    "model": null,
+    "model": "/models/2026.06.360-2026.glb",
     "image": "/images/2026.06.360-final.webp",
     "thumbnail": "/images/2026.06.360-final-card.webp",
     "modelRotation": [
@@ -835,10 +906,13 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/2002.05.090-detail-1.webp",
+        "alt": "Detail photograph of black one-shoulder pleated evening dress",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "note": "Explore the photograph and the object record below.",
@@ -906,10 +980,22 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/2026.06.138-detail-1.webp",
+        "alt": "Detail photograph of “ellsworth kelly” gown with sheer geometric panels",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail-2",
+        "label": "Detail 2",
+        "image": "/images/2026.06.138-detail-2.webp",
+        "alt": "Detail photograph of “ellsworth kelly” gown with sheer geometric panels",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "alternate": false,
@@ -918,7 +1004,7 @@
     "recordNote": "",
     "kind": "garment",
     "source": "Curator final tombstones, October 15, 2026",
-    "model": null,
+    "model": "/models/2026.06.138-2026.glb",
     "image": "/images/2026.06.138-final.webp",
     "thumbnail": "/images/2026.06.138-final-card.webp",
     "modelRotation": [
@@ -952,10 +1038,22 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/1997.33.064-detail-1.webp",
+        "alt": "Detail photograph of fuchsia strapless evening gown with asymmetrical gathers",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail-2",
+        "label": "Detail 2",
+        "image": "/images/1997.33.064-detail-2.webp",
+        "alt": "Detail photograph of fuchsia strapless evening gown with asymmetrical gathers",
+        "imageAspect": "1600 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "alternate": false,
@@ -964,7 +1062,7 @@
     "recordNote": "",
     "kind": "garment",
     "source": "Curator final tombstones, October 15, 2026",
-    "model": null,
+    "model": "/models/1997.33.064-2026.glb",
     "image": "/images/1997.33.064-final.webp",
     "thumbnail": "/images/1997.33.064-final-card.webp",
     "modelRotation": [
@@ -1128,10 +1226,13 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/1995.07.009-detail-1.webp",
+        "alt": "Detail photograph of beige satin dress with geometric beaded borders",
+        "imageAspect": "1800 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "note": "Explore the photograph and the object record below.",
@@ -1211,7 +1312,7 @@
     "recordNote": "",
     "kind": "garment",
     "source": "Curator final tombstones, October 15, 2026",
-    "model": null,
+    "model": "/models/873ab-2026.glb",
     "image": "/images/873ab-final.webp",
     "thumbnail": "/images/873ab-final-card.webp",
     "modelRotation": [
@@ -1224,7 +1325,8 @@
     "collection": "Ancient World: Greece",
     "displayOrder": 1,
     "alt": "Black satin dress and fur-trimmed coat with Greek-inspired appliqué, photographed on a display mannequin.",
-    "description": "A fur-trimmed opening frames the dark satin ensemble, while Greek-inspired appliqué draws attention to selected areas of the coat. Broad plain surfaces make the ornament’s placement more conspicuous. Beside the ceramics, the ensemble invites comparison between a decorated border and a decorated garment edge, without assuming that similar patterns carry identical meanings."
+    "description": "A fur-trimmed opening frames the dark satin ensemble, while Greek-inspired appliqué draws attention to selected areas of the coat. Broad plain surfaces make the ornament’s placement more conspicuous. Beside the ceramics, the ensemble invites comparison between a decorated border and a decorated garment edge, without assuming that similar patterns carry identical meanings.",
+    "modelWithoutJacket": "/models/873ab-no-jacket-2026.glb"
   },
   {
     "id": "2015.30.016",
@@ -1308,10 +1410,31 @@
         "origin": "50% 50%"
       },
       {
-        "id": "detail",
+        "id": "detail-1",
         "label": "Closer look",
-        "scale": 2,
-        "origin": "50% 35%"
+        "image": "/images/883-detail-1.webp",
+        "alt": "Detail photograph of black satin evening dress with gold-colored beading and scalloped hem",
+        "imageAspect": "1800 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail-2",
+        "label": "Detail 2",
+        "image": "/images/883-detail-2.webp",
+        "alt": "Detail photograph of black satin evening dress with gold-colored beading and scalloped hem",
+        "imageAspect": "1800 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
+      },
+      {
+        "id": "detail-3",
+        "label": "Detail 3",
+        "image": "/images/883-detail-3.webp",
+        "alt": "Detail photograph of black satin evening dress with gold-colored beading and scalloped hem",
+        "imageAspect": "1800 / 2400",
+        "scale": 1,
+        "origin": "50% 50%"
       }
     ],
     "note": "Explore the photograph and the object record below.",
