@@ -41,8 +41,8 @@
       "y": 381.12
     },
     "installationPosition": [
-      32,
-      38
+      39.5,
+      35
     ]
   },
   {
@@ -87,8 +87,8 @@
       "y": 393.03
     },
     "installationPosition": [
-      43,
-      38
+      46.5,
+      35
     ]
   },
   {
@@ -134,7 +134,7 @@
     },
     "installationPosition": [
       60,
-      53
+      45
     ]
   },
   {
@@ -179,8 +179,8 @@
       "y": 428.76
     },
     "installationPosition": [
-      73,
-      39
+      71.5,
+      33
     ]
   },
   {
@@ -225,8 +225,8 @@
       "y": 381.12
     },
     "installationPosition": [
-      86,
-      38
+      82,
+      30
     ]
   },
   {
@@ -264,8 +264,8 @@
     "assetNote": "",
     "source": "Curator final tombstones, October 15, 2026",
     "installationPosition": [
-      61,
-      65
+      63,
+      67
     ]
   },
   {
@@ -303,8 +303,8 @@
     "assetNote": "",
     "source": "Curator final tombstones, October 15, 2026",
     "installationPosition": [
-      84,
-      68
+      83,
+      48
     ]
   },
   {
@@ -343,8 +343,8 @@
     "source": "Curator final tombstones, October 15, 2026",
     "origin": "Berlin, Germany",
     "installationPosition": [
-      26,
-      55
+      30.5,
+      47
     ]
   },
   {
@@ -383,8 +383,8 @@
     "source": "Curator final tombstones, October 15, 2026",
     "origin": "Berlin, Germany",
     "installationPosition": [
-      31,
-      55
+      34.5,
+      47
     ]
   },
   {
@@ -421,7 +421,11 @@
     "alt": "Seated Woman with Writing Tablet",
     "assetNote": "Image from the Cornell Cast Collection record supplied with the exhibition files.",
     "source": "Curator final tombstones, October 15, 2026",
-    "origin": "Berlin, Germany"
+    "origin": "Berlin, Germany",
+    "installationPosition": [
+      32,
+      52
+    ]
   },
   {
     "id": "CCC_0927",
@@ -494,8 +498,8 @@
     "assetNote": "Photograph shows one of the pair of vessels.",
     "source": "Curator final tombstones, October 15, 2026",
     "installationPosition": [
-      42,
-      22
+      34,
+      55
     ]
   },
   {
@@ -533,8 +537,8 @@
     "assetNote": "",
     "source": "Curator final tombstones, October 15, 2026",
     "installationPosition": [
-      50,
-      22
+      30,
+      58
     ]
   },
   {
@@ -572,8 +576,8 @@
     "assetNote": "",
     "source": "Curator final tombstones, October 15, 2026",
     "installationPosition": [
-      20,
-      22
+      64.5,
+      37
     ]
   },
   {
@@ -611,8 +615,8 @@
     "assetNote": "",
     "source": "Curator final tombstones, October 15, 2026",
     "installationPosition": [
-      28,
-      24
+      68,
+      62
     ]
   },
   {
@@ -650,8 +654,8 @@
     "assetNote": "",
     "source": "Curator final tombstones, October 15, 2026",
     "installationPosition": [
-      33,
-      22
+      64,
+      61
     ]
   },
   {
@@ -687,10 +691,6 @@
     "imageAspect": "1500 / 2000",
     "alt": "Egyptian-Style Beaded Necklace",
     "assetNote": "",
-    "source": "Curator final tombstones, October 15, 2026",
-    "installationPosition": [
-      45,
-      24
-    ]
+    "source": "Curator final tombstones, October 15, 2026"
   }
 ]

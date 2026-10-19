@@ -39,7 +39,7 @@ export default function CaseInstallation({ installation, children }) {
           })}
         </div>
       </div>
-      <figcaption><strong>Final installation plan</strong><span>Digital mockup · Garment markers open collection pages. Hover, focus, or tap an i marker or an artwork title below to read its tombstone.</span></figcaption>
+      <figcaption><strong>Exhibition installation</strong><span>Installation view · Garment markers open collection pages. Hover, focus, or tap an i marker or an artwork title below to read its tombstone.</span></figcaption>
       {installation.note && <p className="installation-help">{installation.note}</p>}
       <ol className="installation-key">{installation.markers.map(marker => <li key={marker.id}><a href={objectUrl(marker.id)}>{getObject(marker.id).title}</a></li>)}</ol>
     </figure>}

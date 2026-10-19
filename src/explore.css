@@ -120,3 +120,7 @@
 .artwork-marker button { width:44px; height:44px; border-radius:50%; background:#F6F3ED; text-align:center; font-family:Georgia,serif; font-size:22px; box-shadow:0 1px 5px #0003; }
 .artwork-marker .artwork-label { position:absolute; left:50%; top:44px; transform:translateX(-50%); width:240px; max-height:340px; overflow:auto; box-shadow:0 4px 20px #0003; }
 .artwork-tombstone button:focus-visible { outline:3px solid #105681; outline-offset:3px; }
+.wall-display-photos { margin:64px 0; }
+.wall-display-photos figure { margin:24px 0; }
+.wall-display-photos img { display:block; width:100%; height:auto; }
+.wall-display-photos figcaption { padding:12px 0; font-size:14px; }
