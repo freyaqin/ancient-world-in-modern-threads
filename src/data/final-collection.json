@@ -578,7 +578,13 @@
     "recordNote": "",
     "kind": "garment",
     "source": "Curator final tombstones, October 15, 2026",
-    "modelWithoutJacket": "/models/2012.08.027ab-no-jacket-2026.glb"
+    "modelWithoutJacket": "/models/2012.08.027ab-no-jacket-2026.glb",
+    "bodyScan": "/models/patricia-lester-body-scan.glb",
+    "bodyScanRotation": [
+      0,
+      1.5707963267948966,
+      1.5707963267948966
+    ]
   },
   {
     "id": "loan-madame-gres",

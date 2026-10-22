@@ -6,6 +6,7 @@ import { cases, runwayNotes } from './data/exhibition';
 import { caseUrl, objectUrl } from './data/site';
 
 
+const ScanComparison = lazy(() => import('./ScanComparison'));
 const ModelViewer = lazy(() => import('./ModelViewer'));
 
 function Icon({ name, ...props }) {
@@ -57,7 +58,7 @@ export default function ObjectPage({ object }) {
         </div></div>
         <div className="view-controls" aria-label="Image views">{object.views.map(v => <button key={v.id} className={`view-option ${view.id === v.id ? 'current' : ''}`} aria-pressed={view.id === v.id} onClick={() => setView(v)}><span className="thumbnail" aria-hidden="true"><span className="thumb-plane" style={{ transform: `scale(${v.scale})`, transformOrigin: v.origin }}><Garment object={v.image ? {...object,image:v.image,crop:null} : object} decorative /></span></span><span>{v.label}</span></button>)}</div>
         <p className="viewer-hint">{object.hotspots.length ? 'Touch a circle. Discover a detail.' : 'Select Closer look to examine the photograph.'}</p></>}{object.image && object.assetNote && <p className="asset-note">{object.assetNote}</p>}</div>
-        {mode === 'rotate' && <Suspense fallback={<p role="status">Loading the 3D viewer…</p>}><ModelViewer object={object} /></Suspense>}
+        {mode === 'rotate' && <Suspense fallback={<p role="status">Loading the 3D viewer…</p>}>{object.bodyScan ? <ScanComparison object={object} /> : <ModelViewer object={object} />}</Suspense>}
       </section>
       <aside className="object-info" aria-label="About this object">
         <p className="eyebrow">{object.collection} / {object.accession || 'Loan'}</p>{object.alternate && <p className="record-note">Alternate study object · retained for exploration, outside the current display sequence.</p>}{object.retired && <p className="record-note">Study archive · not in the current exhibition selection.</p>}<h1>{object.title}</h1><p className="attribution">{object.designer}<span>{object.date}</span></p>

@@ -47,3 +47,23 @@
 
 .response-result:empty { display: none; }
 .response-result { line-height: 1.6; }
+
+.scan-comparison { padding: 16px; }
+.scan-comparison > p { line-height: 1.6; font-size: .9rem; }
+.scan-comparison-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.scan-comparison-grid > section { min-width: 0; }
+.scan-comparison h3 { font-size: 1rem; min-height: 2.6em; }
+.scan-comparison .model-canvas { height: 420px; }
+.scan-comparison .model-controls { flex-wrap: wrap; }
+.scan-comparison .model-note { font-size: .8rem; }
+/* Keep both captures visible together, including in the narrow app panel. */
+.scan-comparison .jacket-control { min-height: 60px; box-sizing: border-box; }
+@media(max-width: 650px) {
+  .scan-comparison { padding: 10px; }
+  .scan-comparison-grid { gap: 8px; }
+  .scan-comparison h3 { font-size: .85rem; min-height: 3em; }
+  .scan-comparison .model-canvas { height: 300px; min-height: 0; }
+  .scan-comparison .jacket-control { font-size: .75rem; flex-wrap: wrap; gap: 4px; }
+  .scan-comparison .model-status, .scan-comparison .viewer-hint { font-size: .7rem; }
+  .scan-comparison .model-controls { gap: 4px; }
+}

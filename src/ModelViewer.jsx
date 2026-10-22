@@ -1,12 +1,13 @@
 import Arrow from './Arrow';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useId } from 'react';
 import * as THREE from 'three';
 import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
-export default function ModelViewer({ object }) {
+export default function ModelViewer({ object, sync, scan = false }) {
+  const instructionsId = useId();
   const host = useRef(null);
   const actions = useRef(null);
   const introduced = useRef(false);
@@ -20,7 +21,7 @@ export default function ModelViewer({ object }) {
   useEffect(() => {
     const container = host.current;
     const abort = new AbortController();
-    let renderer, controls, model, observer, environment;
+    let renderer, controls, model, observer, environment, unsubscribe;
     let animationFrame = 0;
     const stopIntro = () => { cancelAnimationFrame(animationFrame); animationFrame = 0; };
     container.addEventListener('pointerdown', stopIntro);
@@ -69,7 +70,21 @@ export default function ModelViewer({ object }) {
       controls.enableZoom = false; // Explicit buttons avoid intercepting page scroll.
       controls.minPolarAngle = Math.PI * .15;
       controls.maxPolarAngle = Math.PI * .85;
-      controls.addEventListener('change', render);
+      let receiving = false;
+      controls.addEventListener('change', () => {
+        render();
+        if (sync && !receiving) {
+          const position = camera.position.clone().sub(controls.target).divideScalar(fitDistance()).toArray();
+          sync.current.position = position;
+          sync.current.listeners.forEach(listener => { if (listener !== receive) listener(position); });
+        }
+      });
+      const receive = position => {
+        receiving = true;
+        camera.position.fromArray(position).multiplyScalar(fitDistance()).add(controls.target);
+        controls.update(); render(); receiving = false;
+      };
+      if (sync) { sync.current.listeners.add(receive); unsubscribe = () => sync.current.listeners.delete(receive); }
       let modelWidth = .6, modelDepth = .3;
       const fitDistance = () => Math.max(1, modelWidth / camera.aspect) / (2 * Math.tan(THREE.MathUtils.degToRad(16))) * 1.15 + modelDepth / 2;
       const reset = () => { camera.position.set(0, 0, fitDistance()); controls.target.set(0, 0, 0); controls.update(); render(); };
@@ -114,8 +129,9 @@ export default function ModelViewer({ object }) {
           scene.add(framed);
           modelWidth = size.x / size.y; modelDepth = size.z / size.y;
           reset();
+          if (sync?.current.position) receive(sync.current.position);
           render(); setReady(true); setStatus('3D garment ready. Drag to rotate, or use the controls below.');
-          if (!introduced.current && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          if (!sync && !introduced.current && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
             introduced.current = true;
             const started = performance.now(); const distance = fitDistance();
             const cue = now => {
@@ -133,20 +149,21 @@ export default function ModelViewer({ object }) {
     } catch { fail(); }
     return () => {
       stopIntro(); container.removeEventListener('pointerdown', stopIntro); container.removeEventListener('keydown', stopIntro);
-      disposed = true; abort.abort(); observer?.disconnect(); controls?.dispose();
+      disposed = true; unsubscribe?.(); abort.abort(); observer?.disconnect(); controls?.dispose();
       disposeModel(model); environment?.dispose(); renderer?.dispose();
       renderer?.domElement.removeEventListener('webglcontextlost', fail);
       renderer?.domElement.remove(); actions.current = null;
     };
-  }, [object, attempt, modelUrl]);
+  }, [object, attempt, modelUrl, sync]);
 
   function onKeyDown(event) {
     const action = { ArrowLeft: 'left', ArrowRight: 'right', '+': 'in', '=': 'in', '-': 'out', Home: 'reset' }[event.key];
     if (action && ready) { event.preventDefault(); actions.current?.[action](); }
   }
   return <div className="model-viewer">
+    {scan && <div className="jacket-control"><span>Jacket on · scanned capture</span></div>}
     {object.modelWithoutJacket && <div className="jacket-control"><span>Jacket</span><button type="button" role="switch" aria-checked={jacketOn} aria-label="Jacket" onClick={() => setJacketOn(value => !value)}><span className="switch-track" aria-hidden="true"><span/></span><span aria-hidden="true">{jacketOn ? 'On' : 'Off'}</span></button></div>}
-    <div ref={host} className="model-canvas" role="group" aria-label={object.modelDescription} aria-describedby="model-instructions" tabIndex="0" onKeyDown={onKeyDown} />
+    <div ref={host} className="model-canvas" role="group" aria-label={object.modelDescription} aria-describedby={instructionsId} tabIndex="0" onKeyDown={onKeyDown} />
     <p role="status" className="model-status">{status}</p>
     {failed && <button className="retry-button" onClick={() => setAttempt(value => value + 1)}>Retry 3D view</button>}
     <div className="model-controls" aria-label="3D model controls">
@@ -156,7 +173,7 @@ export default function ModelViewer({ object }) {
       <button disabled={!ready} onClick={() => actions.current?.out()} aria-label="Zoom out">−</button>
       <button disabled={!ready} onClick={() => actions.current?.reset()}>Reset</button>
     </div>
-    <p id="model-instructions" className="viewer-hint">Drag to turn · Arrow keys to rotate · + / − to zoom · Home to reset</p>
-    <p className="model-note">This AI reconstruction by Tripo.ai offers an approximation of the silhouette; color, texture, and surface design may not be faithfully represented.<br/>Compare the AI recreation with the original garment or its collection photograph: what is missing or changed, and how does that shape your understanding of what AI can—and cannot—represent?</p>
+    <p id={instructionsId} className="viewer-hint">Drag to turn · Arrow keys to rotate · + / − to zoom · Home to reset</p>
+    {scan ? <p className="model-note">Body-scanner capture, optimized for web viewing. Surface gaps and capture artifacts may remain.</p> : <p className="model-note">This AI reconstruction by Tripo.ai offers an approximation of the silhouette; color, texture, and surface design may not be faithfully represented.<br/>Compare the AI recreation with the original garment or its collection photograph: what is missing or changed, and how does that shape your understanding of what AI can—and cannot—represent?</p>}
   </div>;
 }
