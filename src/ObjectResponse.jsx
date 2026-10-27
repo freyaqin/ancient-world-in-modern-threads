@@ -1,7 +1,8 @@
+import { recordReflection } from './participation/store';
 import React, { useId, useRef, useState } from 'react';
 import { openingQuestion, followUpFor } from './data/reflection';
 
-export default function ObjectResponse() {
+export default function ObjectResponse({ objectId }) {
   const id = useId();
   const [response, setResponse] = useState('');
   const [followUp, setFollowUp] = useState('');
@@ -9,9 +10,10 @@ export default function ObjectResponse() {
   const [result, setResult] = useState('');
   const heading = useRef(null);
   const question = step === 1 ? followUp : openingQuestion;
-  function finish() { setResponse(''); setResult('Chat ended. Nothing was sent or saved.'); }
+  function finish() { setResponse(''); setResult('Chat ended. Nothing was sent. If you opted into session measurements, word counts remain in your local summary until you erase them or refresh.'); }
   function advance(event) {
     event.preventDefault();
+    if (response.trim()) recordReflection(objectId, response);
     if (step === 0 && response.trim()) {
       setFollowUp(followUpFor(response)); setResponse(''); setStep(1);
       requestAnimationFrame(() => heading.current?.focus());
@@ -21,7 +23,7 @@ export default function ObjectResponse() {
     <p className="eyebrow">Pause and look {step === 1 && '· A little further'}</p>
     <h2 id={`${id}-question`} ref={heading} tabIndex="-1">{question}</h2>
     <form className="object-response" onSubmit={advance}>
-      <p id={`${id}-notice`} className="response-notice">Interface test only. Reflections are optional and are not sent or saved. Follow-up prompts use simple word matching on this device.</p>
+      <p id={`${id}-notice`} className="response-notice">Reflections are optional and are not sent automatically. If you opt into session measurements, submitted words are counted locally for your review and optional Qualtrics submission. Follow-up prompts use simple word matching on this device.</p>
       {!result && <><label htmlFor={`${id}-answer`}>Your reflection <span>(optional)</span></label>
         <textarea id={`${id}-answer`} rows={3} maxLength={1500} value={response} onChange={e => setResponse(e.target.value)} aria-describedby={`${id}-notice ${id}-count`}/>
         <p id={`${id}-count`} className="response-count">{response.length} / 1500 characters</p>

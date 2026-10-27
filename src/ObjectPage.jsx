@@ -63,7 +63,7 @@ export default function ObjectPage({ object }) {
       <aside className="object-info" aria-label="About this object">
         <p className="eyebrow">{object.collection} / {object.accession || 'Loan'}</p>{object.alternate && <p className="record-note">Alternate study object · retained for exploration, outside the current display sequence.</p>}{object.retired && <p className="record-note">Study archive · not in the current exhibition selection.</p>}<h1>{object.title}</h1><p className="attribution">{object.designer}<span>{object.date}</span></p>
         <p className="credit">{object.credit}</p>
-        <ObjectResponse key={object.id} question={object.question} />
+        <ObjectResponse key={object.id} objectId={object.id} question={object.question} />
         <p className="description">{object.description}</p>
         <dl className="facts"><div><dt>Material</dt><dd>{object.material}</dd></div>{object.origin && <div><dt>Recorded origin</dt><dd>{object.origin}</dd></div>}{object.wornBy && <div><dt>Worn by</dt><dd>{object.wornBy}</dd></div>}<div><dt>{object.alternate ? 'Related case' : 'Display'}</dt><dd>{object.collection}</dd></div></dl>
         {object.hotspots.length > 0 && <>
@@ -83,8 +83,8 @@ export default function ObjectPage({ object }) {
     </main>
     <nav className="navigation object-navigation" aria-label="Object views">
       <a href={caseUrl(object.collection)}><Icon name="case"/><span>{object.collection}</span></a>
-      <button aria-current={mode === 'object' ? 'page' : undefined} onClick={() => {setMode('object'); setActive(null);}}><Icon name="object"/><span>Photos</span></button>
-      {object.kind !== 'context' && <button disabled={!object.model} aria-current={mode === 'rotate' ? 'page' : undefined} onClick={() => {setMode('rotate'); setActive(null);}}><Icon name="rotate"/><span>360° View</span>{!object.model && <small>In preparation</small>}</button>}
+      <button data-feature="Photos" aria-current={mode === 'object' ? 'page' : undefined} onClick={() => {setMode('object'); setActive(null);}}><Icon name="object"/><span>Photos</span></button>
+      {object.kind !== 'context' && <button data-feature="360 view" disabled={!object.model} aria-current={mode === 'rotate' ? 'page' : undefined} onClick={() => {setMode('rotate'); setActive(null);}}><Icon name="rotate"/><span>360° View</span>{!object.model && <small>In preparation</small>}</button>}
       <a href={`${caseUrl(object.collection)}/compare`}><Icon name="compare"/><span>Compare</span></a>
     </nav>
   </>;

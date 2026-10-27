@@ -162,7 +162,7 @@ export default function ModelViewer({ object, sync, scan = false }) {
   }
   return <div className="model-viewer">
     {scan && <div className="jacket-control"><span>Jacket on · scanned capture</span></div>}
-    {object.modelWithoutJacket && <div className="jacket-control"><span>Jacket</span><button type="button" role="switch" aria-checked={jacketOn} aria-label="Jacket" onClick={() => setJacketOn(value => !value)}><span className="switch-track" aria-hidden="true"><span/></span><span aria-hidden="true">{jacketOn ? 'On' : 'Off'}</span></button></div>}
+    {object.modelWithoutJacket && <div className="jacket-control"><span>Jacket</span><button type="button" data-feature="Jacket toggle" role="switch" aria-checked={jacketOn} aria-label="Jacket" onClick={() => setJacketOn(value => !value)}><span className="switch-track" aria-hidden="true"><span/></span><span aria-hidden="true">{jacketOn ? 'On' : 'Off'}</span></button></div>}
     <div ref={host} className="model-canvas" role="group" aria-label={object.modelDescription} aria-describedby={instructionsId} tabIndex="0" onKeyDown={onKeyDown} />
     <p role="status" className="model-status">{status}</p>
     {failed && <button className="retry-button" onClick={() => setAttempt(value => value + 1)}>Retry 3D view</button>}
