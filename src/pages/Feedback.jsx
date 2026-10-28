@@ -10,7 +10,7 @@ export default function Feedback() {
     <p>Your feedback supports Freya Qin’s M.A. research on visitor engagement in fashion exhibitions.</p>
     <section className="feedback-intro" aria-label="About the visitor survey">
       <p>This optional survey takes about 10 minutes and is for visitors aged 18 or older. Read the study information and choose whether to participate inside the survey. You may skip questions or stop at any time. You can explore the exhibition without participating.</p>
-      <p>Responses go to the research team through Cornell Qualtrics and are not displayed publicly. Optional raffle and follow-up contact details are collected in a separate form after the survey.</p>
+      <p>Responses go to the research team through Cornell Qualtrics and are not displayed publicly. After completing the visitor survey, you may leave contact information in a separate form to receive a $5 gift card. You can also choose to hear about future interviews or workshop opportunities. Receiving the gift card does not require agreeing to future contact.</p>
       <div className="feedback-actions">
         {!opened && <button className="primary-link" onClick={() => setOpened(true)}>Open visitor survey here</button>}
         <a href={SURVEY_URL} target="_blank" rel="noopener noreferrer">Open survey in a new tab ↗</a>
